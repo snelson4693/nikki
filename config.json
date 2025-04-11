@@ -1,0 +1,7 @@
+{
+    "exchange": "binance",
+    "trade_amount": 10,
+    "min_volume": 100000,
+    "wallet_address": "your-wallet-address-here"
+  }
+  
