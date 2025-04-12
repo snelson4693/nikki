@@ -1,0 +1,50 @@
+{
+    "usd_balance": 50.0,
+    "balances": {
+        "bitcoin": 0.0001199702473786501,
+        "ethereum": 0.0,
+        "litecoin": 0.0,
+        "wrapped-bitcoin": 0.0001202154260434699,
+        "shiba-inu": 820344.5447087777,
+        "polkadot": 2.801120448179272,
+        "coinbase-wrapped-btc": 0.00011999472023230978
+    },
+    "last_trade_price": 83337.0,
+    "trade_history": [
+        {
+            "timestamp": null,
+            "coin": "wrapped-bitcoin",
+            "action": "buy",
+            "price": 83184,
+            "amount": 10
+        },
+        {
+            "timestamp": null,
+            "coin": "shiba-inu",
+            "action": "buy",
+            "price": 1.219e-05,
+            "amount": 10
+        },
+        {
+            "timestamp": null,
+            "coin": "bitcoin",
+            "action": "buy",
+            "price": 83354.0,
+            "amount": 10
+        },
+        {
+            "timestamp": null,
+            "coin": "polkadot",
+            "action": "buy",
+            "price": 3.57,
+            "amount": 10
+        },
+        {
+            "timestamp": null,
+            "coin": "coinbase-wrapped-btc",
+            "action": "buy",
+            "price": 83337.0,
+            "amount": 10
+        }
+    ]
+}

@@ -1,7 +1,11 @@
 {
-    "exchange": "binance",
+    "exchange": "coingecko",
     "trade_amount": 10,
     "min_volume": 100000,
-    "wallet_address": "your-wallet-address-here"
+    "strategy": {
+      "buy_rsi_threshold": 40,
+      "sell_rsi_threshold": 60,
+      "sentiment_bias": 0
+    }
   }
   

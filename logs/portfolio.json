@@ -1,0 +1,11 @@
+{
+    "usd_balance": 100.0,
+    "balances": {
+      "bitcoin": 0.0,
+      "ethereum": 0.0,
+      "litecoin": 0.0
+    },
+    "last_trade_price": 0.0,
+    "trade_history": []
+  }
+  
