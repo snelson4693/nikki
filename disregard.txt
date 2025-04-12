@@ -1,12 +1,52 @@
-rm -rf numpy
-rm -rf numpy-*
-find . -type d -name "numpy" -exec rm -rf {} +
+(venv) snelson4693@raspberrypi:~/nikki $ python -c "import numpy; import pandas; print('All good')"
+Traceback (most recent call last):
+  File "/home/snelson4693/nikki/venv/lib/python3.11/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/snelson4693/nikki/venv/lib/python3.11/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/snelson4693/nikki/venv/lib/python3.11/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libopenblas.so.0: cannot open shared object file: No such file or directory
 
-find . -type d -name "__pycache__" -exec rm -rf {} +
+During handling of the above exception, another exception occurred:
 
-pip uninstall numpy -y
-pip install numpy
+Traceback (most recent call last):
+  File "/home/snelson4693/nikki/venv/lib/python3.11/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/home/snelson4693/nikki/venv/lib/python3.11/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/home/snelson4693/nikki/venv/lib/python3.11/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
 
-python main.py
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
-python -c "import numpy; print(numpy.__file__)"
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.11 from "/home/snelson4693/nikki/venv/bin/python"
+  * The NumPy version is: "2.2.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libopenblas.so.0: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/snelson4693/nikki/venv/lib/python3.11/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+(venv) snelson4693@raspberrypi:~/nikki $ python main.py
