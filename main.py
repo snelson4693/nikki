@@ -3,7 +3,8 @@ import random
 import json
 import os
 from datetime import datetime, timedelta
-
+import threading
+import subprocess
 from data_feed import get_market_data
 from trade_engine import evaluate_trade
 from risk_manager import is_trade_allowed
@@ -28,7 +29,19 @@ def refresh_coin_list():
         run_screener()
         LAST_SCREENED = datetime.now()
         time.sleep(random.uniform(3.0, 5.0))  # 3–5s delay to be polite to APIs
+def auto_sync_repos():
+    while True:
+        try:
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] 🔁 Auto-syncing Nikki's brain...")
+            subprocess.run(["python", "brain_sync.py"], check=True)
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] ✅ Brain synced.")
 
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] 🔁 Auto-syncing Nikki's code...")
+            subprocess.run(["python", "github_sync.py"], check=True)
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] ✅ Code synced.")
+        except subprocess.CalledProcessError as e:
+            print(f"❌ Auto-sync error: {e}")
+        time.sleep(1800)  # 30 minutes
 def main():
     log_message("🚀 Nikki is starting...")
 
@@ -36,7 +49,9 @@ def main():
     os.system("copy model\\model.pkl brain_repo\\model.pkl >nul 2>&1")
     os.system("copy model\\scaler.pkl brain_repo\\scaler.pkl >nul 2>&1")
     log_message("✅ Brain synced.")
-
+    # Start background thread when imported
+    sync_thread = threading.Thread(target=auto_sync_repos, daemon=True)
+    sync_thread.start()
     refresh_coin_list()
 
     # 🧠 Self-learn from past patterns before making trades
