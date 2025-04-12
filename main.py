@@ -120,6 +120,16 @@ def main():
 
     portfolio = load_portfolio()
     print(portfolio)
+def continuous_self_training():
+    while True:
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] 🧠 Continuous self-training started...")
+        analyze_patterns()
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] ✅ Self-training complete. Strategy updated.")
+        time.sleep(150)  # 2.5 minutes = 150 seconds
+
+# Start the self-training thread
+train_thread = threading.Thread(target=continuous_self_training, daemon=True)
+train_thread.start()
 
 while True:
     if __name__ == "__main__":
