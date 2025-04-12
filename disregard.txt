@@ -1,18 +1,4 @@
-(venv) snelson4693@raspberrypi:~/nikki $ pip uninstall numpy -y
-Found existing installation: numpy 2.2.4
-Uninstalling numpy-2.2.4:
-  Successfully uninstalled numpy-2.2.4
-(venv) snelson4693@raspberrypi:~/nikki $ pip install numpy
-Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
-Collecting numpy
-  Using cached https://www.piwheels.org/simple/numpy/numpy-2.2.4-cp311-cp311-linux_armv7l.whl (6.0 MB)
-Installing collected packages: numpy
-Successfully installed numpy-2.2.4
-(venv) snelson4693@raspberrypi:~/nikki $ python run_all.py
-🧠 Starting Nikki Brain...
-🖥️ Starting Nikki Dashboard...
- * Serving Flask app 'app'
- * Debug mode: on
+(venv) snelson4693@raspberrypi:~/nikki $ python main.py
 Traceback (most recent call last):
   File "/home/snelson4693/nikki/main.py", line 9, in <module>
     from trade_engine import evaluate_trade
@@ -26,42 +12,4 @@ ImportError: Unable to import required dependencies:
 numpy: Error importing numpy: you should not try to import numpy from
         its source directory; please exit the numpy source tree, and relaunch
         your python interpreter from there.
-WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
- * Running on http://127.0.0.1:5000
-Press CTRL+C to quit
- * Restarting with stat
-❌ Nikki Brain crashed.
-Traceback (most recent call last):
-  File "/home/snelson4693/nikki/run_all.py", line 10, in run_main
-    subprocess.run(["python3", "main.py"], check=True)
-  File "/usr/lib/python3.11/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python3', 'main.py']' returned non-zero exit status 1.
- * Debugger is active!
- * Debugger PIN: 920-690-158
-🧠 Starting Nikki Brain...
-Traceback (most recent call last):
-  File "/home/snelson4693/nikki/main.py", line 9, in <module>
-    from trade_engine import evaluate_trade
-  File "/home/snelson4693/nikki/trade_engine.py", line 1, in <module>
-    from prediction_engine import load_model, predict_price_movement
-  File "/home/snelson4693/nikki/prediction_engine.py", line 1, in <module>
-    import pandas as pd
-  File "/home/snelson4693/nikki/venv/lib/python3.11/site-packages/pandas/__init__.py", line 19, in <module>
-    raise ImportError(
-ImportError: Unable to import required dependencies:
-numpy: Error importing numpy: you should not try to import numpy from
-        its source directory; please exit the numpy source tree, and relaunch
-        your python interpreter from there.
-❌ Nikki Brain crashed.
-Traceback (most recent call last):
-  File "/home/snelson4693/nikki/run_all.py", line 10, in run_main
-    subprocess.run(["python3", "main.py"], check=True)
-  File "/usr/lib/python3.11/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python3', 'main.py']' returned non-zero exit status 1.
-^CTraceback (most recent call last):
-  File "/home/snelson4693/nikki/run_all.py", line 34, in <module>
-    time.sleep(1)
-KeyboardInterrupt
-
+(venv) snelson4693@raspberrypi:~/nikki $ 
