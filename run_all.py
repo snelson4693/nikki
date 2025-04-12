@@ -1,39 +1,34 @@
-import subprocess
 import threading
-import os
+import subprocess
 import time
-from datetime import datetime
-
-LOGS_DIR = "logs"
-os.makedirs(LOGS_DIR, exist_ok=True)
-
-def log(message):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"[{timestamp}] {message}")
-
-def run_process(name, command, log_file):
-    while True:
-        try:
-            log(f"🚀 Starting {name}...")
-            with open(os.path.join(LOGS_DIR, log_file), "a") as f:
-                f.write(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {name} started.\n")
-                process = subprocess.Popen(command, stdout=f, stderr=f)
-                process.wait()
-                f.write(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {name} crashed. Restarting in 5 seconds...\n")
-        except Exception as e:
-            log(f"❌ Error running {name}: {e}")
-        time.sleep(5)
+import traceback
 
 def run_main():
-    run_process("Nikki Brain (main.py)", ["python", "main.py"], "main.log")
+    while True:
+        try:
+            print("🧠 Starting Nikki Brain...")
+            subprocess.run(["python3", "main.py"], check=True)
+        except subprocess.CalledProcessError as e:
+            print("❌ Nikki Brain crashed.")
+            traceback.print_exc()
+            time.sleep(5)
 
 def run_dashboard():
-    run_process("Nikki Dashboard (app.py)", ["python", os.path.join("dashboard", "app.py")], "dashboard.log")
+    while True:
+        try:
+            print("🖥️ Starting Nikki Dashboard...")
+            subprocess.run(["python3", "dashboard/app.py"], check=True)
+        except subprocess.CalledProcessError as e:
+            print("❌ Dashboard crashed.")
+            traceback.print_exc()
+            time.sleep(5)
 
 if __name__ == "__main__":
-    threading.Thread(target=run_main, daemon=True).start()
-    threading.Thread(target=run_dashboard, daemon=True).start()
+    brain_thread = threading.Thread(target=run_main, daemon=True)
+    dashboard_thread = threading.Thread(target=run_dashboard, daemon=True)
 
-    # Keep main thread alive
+    brain_thread.start()
+    dashboard_thread.start()
+
     while True:
-        time.sleep(60)
+        time.sleep(1)
