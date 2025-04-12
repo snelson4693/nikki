@@ -1,15 +1,12 @@
-(venv) snelson4693@raspberrypi:~/nikki $ python main.py
-Traceback (most recent call last):
-  File "/home/snelson4693/nikki/main.py", line 9, in <module>
-    from trade_engine import evaluate_trade
-  File "/home/snelson4693/nikki/trade_engine.py", line 1, in <module>
-    from prediction_engine import load_model, predict_price_movement
-  File "/home/snelson4693/nikki/prediction_engine.py", line 1, in <module>
-    import pandas as pd
-  File "/home/snelson4693/nikki/venv/lib/python3.11/site-packages/pandas/__init__.py", line 19, in <module>
-    raise ImportError(
-ImportError: Unable to import required dependencies:
-numpy: Error importing numpy: you should not try to import numpy from
-        its source directory; please exit the numpy source tree, and relaunch
-        your python interpreter from there.
-(venv) snelson4693@raspberrypi:~/nikki $ 
+rm -rf numpy
+rm -rf numpy-*
+find . -type d -name "numpy" -exec rm -rf {} +
+
+find . -type d -name "__pycache__" -exec rm -rf {} +
+
+pip uninstall numpy -y
+pip install numpy
+
+python main.py
+
+python -c "import numpy; print(numpy.__file__)"
