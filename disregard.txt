@@ -1,0 +1,317 @@
+(venv) snelson4693@raspberrypi:~/nikki $ pip install -r requirements.txt
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Collecting flask
+  Using cached https://www.piwheels.org/simple/flask/flask-3.1.0-py3-none-any.whl (102 kB)
+Collecting flask-cors
+  Using cached https://www.piwheels.org/simple/flask-cors/flask_cors-5.0.1-py3-none-any.whl (11 kB)
+Collecting requests
+  Using cached https://www.piwheels.org/simple/requests/requests-2.32.3-py3-none-any.whl (64 kB)
+Collecting beautifulsoup4
+  Using cached https://www.piwheels.org/simple/beautifulsoup4/beautifulsoup4-4.13.3-py3-none-any.whl (186 kB)
+Collecting scikit-learn
+  Using cached https://www.piwheels.org/simple/scikit-learn/scikit_learn-1.6.1-cp311-cp311-linux_armv7l.whl (12.5 MB)
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /simple/pandas/
+Collecting pandas
+  Using cached https://www.piwheels.org/simple/pandas/pandas-2.2.3-cp311-cp311-linux_armv7l.whl (43.2 MB)
+Collecting numpy
+  Using cached https://www.piwheels.org/simple/numpy/numpy-2.2.4-cp311-cp311-linux_armv7l.whl (6.0 MB)
+Collecting matplotlib
+  Using cached https://www.piwheels.org/simple/matplotlib/matplotlib-3.10.1-cp311-cp311-linux_armv7l.whl (8.2 MB)
+Collecting joblib
+  Using cached https://www.piwheels.org/simple/joblib/joblib-1.4.2-py3-none-any.whl (301 kB)
+Collecting tqdm
+  Using cached https://www.piwheels.org/simple/tqdm/tqdm-4.67.1-py3-none-any.whl (78 kB)
+Collecting yfinance
+  Using cached https://www.piwheels.org/simple/yfinance/yfinance-0.2.55-py2.py3-none-any.whl (109 kB)
+Collecting Werkzeug>=3.1
+  Using cached https://www.piwheels.org/simple/werkzeug/werkzeug-3.1.3-py3-none-any.whl (224 kB)
+Collecting Jinja2>=3.1.2
+  Using cached https://www.piwheels.org/simple/jinja2/jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting itsdangerous>=2.2
+  Using cached https://www.piwheels.org/simple/itsdangerous/itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Collecting click>=8.1.3
+  Using cached https://www.piwheels.org/simple/click/click-8.1.8-py3-none-any.whl (98 kB)
+Collecting blinker>=1.9
+  Using cached https://www.piwheels.org/simple/blinker/blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Collecting charset-normalizer<4,>=2
+  Using cached https://www.piwheels.org/simple/charset-normalizer/charset_normalizer-3.4.1-py3-none-any.whl (49 kB)
+Collecting idna<4,>=2.5
+  Using cached https://www.piwheels.org/simple/idna/idna-3.10-py3-none-any.whl (70 kB)
+Collecting urllib3<3,>=1.21.1
+  Using cached urllib3-2.4.0-py3-none-any.whl (128 kB)
+Collecting certifi>=2017.4.17
+  Using cached https://www.piwheels.org/simple/certifi/certifi-2025.1.31-py3-none-any.whl (166 kB)
+Collecting soupsieve>1.2
+  Using cached https://www.piwheels.org/simple/soupsieve/soupsieve-2.6-py3-none-any.whl (36 kB)
+Collecting typing-extensions>=4.0.0
+  Using cached typing_extensions-4.13.2-py3-none-any.whl (45 kB)
+Collecting scipy>=1.6.0
+  Using cached https://www.piwheels.org/simple/scipy/scipy-1.15.2-cp311-cp311-linux_armv7l.whl (25.1 MB)
+Collecting threadpoolctl>=3.1.0
+  Using cached https://www.piwheels.org/simple/threadpoolctl/threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Collecting python-dateutil>=2.8.2
+  Using cached https://www.piwheels.org/simple/python-dateutil/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting pytz>=2020.1
+  Using cached https://www.piwheels.org/simple/pytz/pytz-2025.2-py3-none-any.whl (509 kB)
+Collecting tzdata>=2022.7
+  Using cached https://www.piwheels.org/simple/tzdata/tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Collecting contourpy>=1.0.1
+  Using cached contourpy-1.3.1-cp311-cp311-linux_armv7l.whl
+Collecting cycler>=0.10
+  Using cached https://www.piwheels.org/simple/cycler/cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting fonttools>=4.22.0
+  Using cached fonttools-4.57.0-py3-none-any.whl (1.1 MB)
+Collecting kiwisolver>=1.3.1
+  Using cached https://www.piwheels.org/simple/kiwisolver/kiwisolver-1.4.8-cp311-cp311-linux_armv7l.whl (1.1 MB)
+Collecting packaging>=20.0
+  Using cached https://www.piwheels.org/simple/packaging/packaging-24.2-py3-none-any.whl (65 kB)
+Collecting pillow>=8
+  Using cached pillow-11.2.1.tar.gz (47.0 MB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting pyparsing>=2.3.1
+  Using cached https://www.piwheels.org/simple/pyparsing/pyparsing-3.2.3-py3-none-any.whl (111 kB)
+Collecting multitasking>=0.0.7
+  Using cached https://www.piwheels.org/simple/multitasking/multitasking-0.0.11-py3-none-any.whl (6.8 kB)
+Collecting platformdirs>=2.0.0
+  Using cached https://www.piwheels.org/simple/platformdirs/platformdirs-4.3.7-py3-none-any.whl (18 kB)
+Collecting frozendict>=2.3.4
+  Using cached https://www.piwheels.org/simple/frozendict/frozendict-2.4.6-cp311-cp311-linux_armv7l.whl (16 kB)
+Collecting peewee>=3.16.2
+  Using cached https://www.piwheels.org/simple/peewee/peewee-3.17.9-cp311-cp311-linux_armv7l.whl (867 kB)
+Collecting MarkupSafe>=2.0
+  Using cached markupsafe-3.0.2-cp311-cp311-linux_armv7l.whl
+Collecting six>=1.5
+  Using cached https://www.piwheels.org/simple/six/six-1.17.0-py2.py3-none-any.whl (11 kB)
+Building wheels for collected packages: pillow
+  Building wheel for pillow (pyproject.toml) ... error
+  error: subprocess-exited-with-error
+  
+  × Building wheel for pillow (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [218 lines of output]
+      running bdist_wheel
+      running build
+      running build_py
+      creating build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageQt.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/FpxImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/Jpeg2KImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImtImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageCms.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/Image.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/MpegImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_version.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/DcxImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/PalmImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/TiffImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/SpiderImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/GdImageFile.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/WmfImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_util.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/TgaImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/__init__.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/FliImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageColor.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageTk.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ExifTags.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_tkinter_finder.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/JpegImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageChops.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/PcfFontFile.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageSequence.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/PpmImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageMode.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/BmpImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageTransform.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageMorph.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/TarIO.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/WebPImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageWin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageShow.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageStat.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/PdfParser.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/TiffTags.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/PaletteFile.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/AvifImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/IcoImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/PsdImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageDraw2.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_binary.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/PSDraw.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/PngImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/GribStubImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ContainerIO.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/XbmImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/PixarImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/report.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/IcnsImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageMath.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/GifImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/FitsImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/XpmImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/MicImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageFont.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageOps.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageDraw.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/GimpGradientFile.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/XVThumbImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageFilter.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_deprecate.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/Hdf5StubImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/GbrImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/MpoImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/MspImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/__main__.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImagePalette.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/PdfImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/SgiImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/CurImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageGrab.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/BdfFontFile.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/JpegPresets.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/FontFile.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageFile.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/BufrStubImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_typing.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/GimpPaletteFile.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/QoiImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/PcdImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImagePath.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/IptcImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/EpsImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/DdsImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/WalImageFile.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/PcxImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/SunImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/features.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/ImageEnhance.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/FtexImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/BlpImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/McIdasImagePlugin.py -> build/lib.linux-aarch64-cpython-311/PIL
+      running egg_info
+      writing src/pillow.egg-info/PKG-INFO
+      writing dependency_links to src/pillow.egg-info/dependency_links.txt
+      writing requirements to src/pillow.egg-info/requires.txt
+      writing top-level names to src/pillow.egg-info/top_level.txt
+      reading manifest file 'src/pillow.egg-info/SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      warning: no files found matching '*.c'
+      warning: no files found matching '*.h'
+      warning: no files found matching '*.sh'
+      warning: no files found matching '*.txt'
+      warning: no files found matching '.flake8'
+      warning: no previously-included files found matching '.clang-format'
+      warning: no previously-included files found matching '.coveragerc'
+      warning: no previously-included files found matching '.editorconfig'
+      warning: no previously-included files found matching '.readthedocs.yml'
+      warning: no previously-included files found matching 'codecov.yml'
+      warning: no previously-included files found matching 'renovate.json'
+      warning: no previously-included files matching '.git*' found anywhere in distribution
+      warning: no previously-included files matching '*.so' found anywhere in distribution
+      no previously-included directories found matching '.ci'
+      no previously-included directories found matching 'wheels'
+      adding license file 'LICENSE'
+      writing manifest file 'src/pillow.egg-info/SOURCES.txt'
+      copying src/PIL/_avif.pyi -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_imaging.pyi -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_imagingcms.pyi -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_imagingft.pyi -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_imagingmath.pyi -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_imagingmorph.pyi -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_imagingtk.pyi -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/_webp.pyi -> build/lib.linux-aarch64-cpython-311/PIL
+      copying src/PIL/py.typed -> build/lib.linux-aarch64-cpython-311/PIL
+      running build_ext
+      
+      
+      The headers or library files could not be found for jpeg,
+      a required dependency when compiling Pillow from source.
+      
+      Please see the install instructions at:
+         https://pillow.readthedocs.io/en/latest/installation/basic-installation.html
+      
+      Traceback (most recent call last):
+        File "<string>", line 1053, in <module>
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/__init__.py", line 117, in setup
+          return distutils.core.setup(**attrs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/_distutils/core.py", line 186, in setup
+          return run_commands(dist)
+                 ^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+          dist.run_commands()
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+          self.run_command(cmd)
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/dist.py", line 1104, in run_command
+          super().run_command(command)
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+          cmd_obj.run()
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/command/bdist_wheel.py", line 370, in run
+          self.run_command("build")
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/_distutils/cmd.py", line 357, in run_command
+          self.distribution.run_command(command)
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/dist.py", line 1104, in run_command
+          super().run_command(command)
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+          cmd_obj.run()
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/_distutils/command/build.py", line 135, in run
+          self.run_command(cmd_name)
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/_distutils/cmd.py", line 357, in run_command
+          self.distribution.run_command(command)
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/dist.py", line 1104, in run_command
+          super().run_command(command)
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+          cmd_obj.run()
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/command/build_ext.py", line 99, in run
+          _build_ext.run(self)
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/_distutils/command/build_ext.py", line 368, in run
+          self.build_extensions()
+        File "<string>", line 862, in build_extensions
+      RequiredDependencyException: jpeg
+      
+      During handling of the above exception, another exception occurred:
+      
+      Traceback (most recent call last):
+        File "/home/snelson4693/nikki/venv/lib/python3.11/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 353, in <module>
+          main()
+        File "/home/snelson4693/nikki/venv/lib/python3.11/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 335, in main
+          json_out['return_val'] = hook(**hook_input['kwargs'])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/home/snelson4693/nikki/venv/lib/python3.11/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 251, in build_wheel
+          return _build_backend().build_wheel(wheel_directory, config_settings,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-install-f_aroqi9/pillow_62dc505e267e47ada7850cc2a0bc927f/_custom_build/backend.py", line 26, in build_wheel
+          return super().build_wheel(wheel_directory, config_settings, metadata_directory)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/build_meta.py", line 438, in build_wheel
+          return _build(['bdist_wheel', '--dist-info-dir', str(metadata_directory)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/build_meta.py", line 426, in _build
+          return self._build_with_temp_dir(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/build_meta.py", line 407, in _build_with_temp_dir
+          self.run_setup()
+        File "/tmp/pip-install-f_aroqi9/pillow_62dc505e267e47ada7850cc2a0bc927f/_custom_build/backend.py", line 20, in run_setup
+          return super().run_setup(setup_script)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-c32jqb1k/overlay/lib/python3.11/site-packages/setuptools/build_meta.py", line 320, in run_setup
+          exec(code, locals())
+        File "<string>", line 1069, in <module>
+      RequiredDependencyException:
+      
+      The headers or library files could not be found for jpeg,
+      a required dependency when compiling Pillow from source.
+      
+      Please see the install instructions at:
+         https://pillow.readthedocs.io/en/latest/installation/basic-installation.html
+      
+      
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for pillow
+Failed to build pillow
+ERROR: Could not build wheels for pillow, which is required to install pyproject.toml-based projects
