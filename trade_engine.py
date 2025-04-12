@@ -27,9 +27,11 @@ def evaluate_trade(data, sentiment_summary):
     print("📊 Strategy thresholds → Buy RSI <", buy_threshold, "| Sell RSI >", sell_threshold)
     print("🔮 Model says →", "Price Rising ✅" if price_rising else "Not confident ❌")
 
+    trade_amount = config.get("trade_amount", 10)
+
     if data["rsi"] < buy_threshold and price_rising:
-        return {"action": "buy", "amount": config["trade_amount"]}
+        return {"action": "buy", "amount": trade_amount}
     elif data["rsi"] > sell_threshold and not price_rising:
-        return {"action": "sell", "amount": config["trade_amount"]}
+        return {"action": "sell", "amount": trade_amount}
 
     return None

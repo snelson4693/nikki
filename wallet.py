@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import datetime
 
 WALLET_FILE = "wallet.json"
 TRADE_LOG = "logs/trade_history.json"
@@ -29,9 +30,11 @@ def execute_trade(trade, data):
     coin = data["coin"]
     price = data["price"]
 
-    # Initialize new coin key if not present
+    # Initialize coin entry if it doesn't exist
     if coin not in wallet["balances"]:
         wallet["balances"][coin] = 0.0
+
+    timestamp = data.get("timestamp") or datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     if trade["action"] == "buy":
         usd_amount = trade["amount"]
@@ -40,8 +43,18 @@ def execute_trade(trade, data):
             wallet["usd_balance"] -= usd_amount
             wallet["balances"][coin] += coin_amount
             wallet["last_trade_price"] = price
+
+            wallet["trade_history"].append({
+                "timestamp": timestamp,
+                "coin": coin,
+                "action": "buy",
+                "price": price,
+                "amount": coin_amount,
+                "usd_spent": usd_amount
+            })
         else:
             print("❌ Not enough USD balance to buy.")
+            return  # Exit early, don't save
 
     elif trade["action"] == "sell":
         coin_amount = trade["amount"]
@@ -50,15 +63,17 @@ def execute_trade(trade, data):
             wallet["usd_balance"] += usd_gained
             wallet["balances"][coin] -= coin_amount
             wallet["last_trade_price"] = price
+
+            wallet["trade_history"].append({
+                "timestamp": timestamp,
+                "coin": coin,
+                "action": "sell",
+                "price": price,
+                "amount": coin_amount,
+                "usd_gained": usd_gained
+            })
         else:
             print("❌ Not enough coin balance to sell.")
-
-    wallet["trade_history"].append({
-        "timestamp": data.get("timestamp"),
-        "coin": coin,
-        "action": trade["action"],
-        "price": price,
-        "amount": trade["amount"]
-    })
+            return  # Exit early, don't save
 
     save_wallet(wallet)

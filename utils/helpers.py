@@ -31,6 +31,7 @@ def log_trade(data, signal, status="executed"):
 def log_message(message):
     """Prints and time-stamps a general log message."""
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {message}")
+
 def adaptive_sleep(coin_name):
     # Random delay between 2-5s to avoid rate limiting (adjust if needed)
     delay = round(random.uniform(2.5, 5.5), 1)

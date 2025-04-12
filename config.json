@@ -1,11 +1,15 @@
 {
     "exchange": "coingecko",
-    "trade_amount": 10,
     "min_volume": 100000,
     "strategy": {
       "buy_rsi_threshold": 40,
       "sell_rsi_threshold": 60,
       "sentiment_bias": 0
+    },
+    "settings": {
+      "min_confidence": 0.6,
+      "max_trade_amount": 10,
+      "min_trade_amount": 0.01
     }
   }
   

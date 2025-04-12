@@ -1,12 +1,17 @@
 [
-  "bitcoin",
-  "wrapped-bitcoin",
-  "chainlink",
-  "shiba-inu",
-  "polkadot",
-  "hyperliquid",
-  "coinbase-wrapped-btc",
+  "ripple",
+  "dogecoin",
+  "avalanche-2",
+  "the-open-network",
+  "bitcoin-cash",
+  "pi-network",
+  "uniswap",
+  "pepe",
+  "mantle",
+  "aave",
   "render-token",
-  "kaspa",
-  "arbitrum"
+  "filecoin",
+  "sonic-3",
+  "bonk",
+  "worldcoin-wld"
 ]

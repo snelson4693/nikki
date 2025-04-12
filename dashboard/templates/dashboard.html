@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nikki | AI Trading Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script defer src="/static/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Nikki AI Dashboard 🧠</h1>
+
+        <section id="wallet">
+            <h2>💼 Wallet</h2>
+            <div id="wallet-stats">Loading...</div>
+        </section>
+
+        <section id="trades">
+            <h2>📈 Trade History</h2>
+            <ul id="trade-list">Loading...</ul>
+        </section>
+
+        <section id="learning">
+            <h2>📚 Pattern Learning</h2>
+            <ul id="pattern-log">Loading...</ul>
+        </section>
+
+        <section id="chat">
+            <h2>💬 Talk to Nikki</h2>
+            <form id="chat-form">
+                <input type="text" id="user_input" placeholder="Say something..." required>
+                <button type="submit">Send</button>
+            </form>
+            <div id="chat-box"></div>
+        </section>
+    </div>
+</body>
+</html>
