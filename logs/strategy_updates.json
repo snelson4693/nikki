@@ -454,5 +454,19 @@
             "buy_rsi_threshold": 31.25,
             "sell_rsi_threshold": 69.44
         }
+    },
+    {
+        "timestamp": "2025-04-14 19:10:52",
+        "updated_strategy": {
+            "buy_rsi_threshold": 30.25,
+            "sell_rsi_threshold": 70.44
+        }
+    },
+    {
+        "timestamp": "2025-04-14 19:10:52",
+        "updated_strategy": {
+            "buy_rsi_threshold": 29.25,
+            "sell_rsi_threshold": 71.44
+        }
     }
 ]
