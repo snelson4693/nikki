@@ -2,8 +2,8 @@
     "exchange": "coingecko",
     "min_volume": 100000,
     "strategy": {
-        "buy_rsi_threshold": 30.78,
-        "sell_rsi_threshold": 70.18,
+        "buy_rsi_threshold": 31.53,
+        "sell_rsi_threshold": 70.25,
         "sentiment_bias": 0,
         "profit_rsi_range": {
             "min": null,

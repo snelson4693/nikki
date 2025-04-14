@@ -163,5 +163,40 @@
     "timestamp": "2025-04-14 18:37:35",
     "error": "log_reflection() got an unexpected keyword argument 'executed'",
     "context": "trade_worker:coinbase-wrapped-btc"
+  },
+  {
+    "timestamp": "2025-04-14 18:40:13",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:stellar"
+  },
+  {
+    "timestamp": "2025-04-14 18:40:13",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:bitcoin-cash"
+  },
+  {
+    "timestamp": "2025-04-14 18:40:15",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:hyperliquid"
+  },
+  {
+    "timestamp": "2025-04-14 18:40:16",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:ondo-finance"
+  },
+  {
+    "timestamp": "2025-04-14 18:41:24",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:vechain"
+  },
+  {
+    "timestamp": "2025-04-14 18:41:24",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:bonk"
+  },
+  {
+    "timestamp": "2025-04-14 18:41:27",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:fartcoin"
   }
 ]

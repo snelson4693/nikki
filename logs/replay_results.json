@@ -1,0 +1,88 @@
+{
+  "timestamp": "2025-04-14 18:39:35",
+  "accuracy": 64.51612903225806,
+  "matches": 40,
+  "total": 62,
+  "mismatches": [
+    {
+      "timestamp": "2025-04-11 21:22:57",
+      "coin": "unknown",
+      "rsi": 57.04,
+      "volume": 38665852390.0,
+      "expected": "sell",
+      "predicted": "none"
+    },
+    {
+      "timestamp": "2025-04-11 21:55:00",
+      "coin": "unknown",
+      "rsi": 40.1,
+      "volume": 39000000000.0,
+      "expected": "buy",
+      "predicted": "none"
+    },
+    {
+      "timestamp": "2025-04-11 21:56:00",
+      "coin": "unknown",
+      "rsi": 35.3,
+      "volume": 39500000000.0,
+      "expected": "buy",
+      "predicted": "none"
+    },
+    {
+      "timestamp": "2025-04-12 01:05:49",
+      "coin": "unknown",
+      "rsi": 25.38,
+      "volume": 372086618.0,
+      "expected": "buy",
+      "predicted": "none"
+    },
+    {
+      "timestamp": "2025-04-12 01:05:53",
+      "coin": "unknown",
+      "rsi": 31.82,
+      "volume": 161194702.0,
+      "expected": "buy",
+      "predicted": "none"
+    },
+    {
+      "timestamp": "2025-04-12 01:30:58",
+      "coin": "unknown",
+      "rsi": 30.54607141247824,
+      "volume": 34618225130.0,
+      "expected": "buy",
+      "predicted": "none"
+    },
+    {
+      "timestamp": "2025-04-12 02:16:35",
+      "coin": "unknown",
+      "rsi": 37.423876806208455,
+      "volume": 374433827.0,
+      "expected": "buy",
+      "predicted": "none"
+    },
+    {
+      "timestamp": "2025-04-12 02:18:51",
+      "coin": "unknown",
+      "rsi": 38.58758370494935,
+      "volume": 295669018.0,
+      "expected": "buy",
+      "predicted": "none"
+    },
+    {
+      "timestamp": "2025-04-12 02:20:32",
+      "coin": "unknown",
+      "rsi": 35.29561273356852,
+      "volume": 34917554217.0,
+      "expected": "buy",
+      "predicted": "none"
+    },
+    {
+      "timestamp": "2025-04-12 10:09:33",
+      "coin": "unknown",
+      "rsi": 35.10549322676541,
+      "volume": 26585627603.0,
+      "expected": "buy",
+      "predicted": "none"
+    }
+  ]
+}
