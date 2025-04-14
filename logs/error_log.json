@@ -198,5 +198,55 @@
     "timestamp": "2025-04-14 18:41:27",
     "error": "log_reflection() got an unexpected keyword argument 'executed'",
     "context": "trade_worker:fartcoin"
+  },
+  {
+    "timestamp": "2025-04-14 19:22:37",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:stellar"
+  },
+  {
+    "timestamp": "2025-04-14 19:22:39",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:bitcoin-cash"
+  },
+  {
+    "timestamp": "2025-04-14 19:22:39",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:hyperliquid"
+  },
+  {
+    "timestamp": "2025-04-14 19:22:41",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:ondo-finance"
+  },
+  {
+    "timestamp": "2025-04-14 19:23:47",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:vechain"
+  },
+  {
+    "timestamp": "2025-04-14 19:23:49",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:render-token"
+  },
+  {
+    "timestamp": "2025-04-14 19:23:51",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:fartcoin"
+  },
+  {
+    "timestamp": "2025-04-14 19:23:52",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:bonk"
+  },
+  {
+    "timestamp": "2025-04-14 19:24:17",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:hyperliquid"
+  },
+  {
+    "timestamp": "2025-04-14 19:24:18",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:stellar"
   }
 ]

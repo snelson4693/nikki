@@ -1,32 +1,32 @@
 [
   {
-    "buy_rsi_threshold": 29.9,
-    "sell_rsi_threshold": 68.58,
-    "simulated_profit": 14.8817,
-    "timestamp": "2025-04-14 19:21:54"
+    "buy_rsi_threshold": 28.64,
+    "sell_rsi_threshold": 70.29,
+    "simulated_profit": 15.1084,
+    "timestamp": "2025-04-14 19:35:54"
   },
   {
-    "buy_rsi_threshold": 29.27,
-    "sell_rsi_threshold": 69.42,
-    "simulated_profit": 23.9621,
-    "timestamp": "2025-04-14 19:21:54"
+    "buy_rsi_threshold": 29.11,
+    "sell_rsi_threshold": 71.08,
+    "simulated_profit": 13.0288,
+    "timestamp": "2025-04-14 19:35:54"
   },
   {
-    "buy_rsi_threshold": 30.14,
-    "sell_rsi_threshold": 70.0,
-    "simulated_profit": 14.3059,
-    "timestamp": "2025-04-14 19:21:54"
+    "buy_rsi_threshold": 30.2,
+    "sell_rsi_threshold": 71.4,
+    "simulated_profit": 20.3499,
+    "timestamp": "2025-04-14 19:35:54"
   },
   {
-    "buy_rsi_threshold": 31.87,
-    "sell_rsi_threshold": 71.19,
-    "simulated_profit": 10.1115,
-    "timestamp": "2025-04-14 19:21:54"
+    "buy_rsi_threshold": 31.37,
+    "sell_rsi_threshold": 68.98,
+    "simulated_profit": 13.5208,
+    "timestamp": "2025-04-14 19:35:54"
   },
   {
-    "buy_rsi_threshold": 29.06,
-    "sell_rsi_threshold": 68.69,
-    "simulated_profit": 14.5159,
-    "timestamp": "2025-04-14 19:21:54"
+    "buy_rsi_threshold": 29.15,
+    "sell_rsi_threshold": 69.82,
+    "simulated_profit": 24.605,
+    "timestamp": "2025-04-14 19:35:54"
   }
 ]

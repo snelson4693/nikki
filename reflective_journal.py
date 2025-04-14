@@ -55,15 +55,21 @@ def schedule_tasks(model, scaler, coins):
             log_message(f"❌ Error during scheduling logic: {e}")
 
         time.sleep(120)  # Evaluate every 2 minutes
-def log_reflection(source, message, insight=None):
+def log_reflection(source, message, signal=None, sentiment=None, confidence=0.0, executed=False, insight=None):
+
     os.makedirs("logs", exist_ok=True)
 
     entry = {
         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "source": source,
         "message": message,
-        "insight": insight or "none"
+        "insight": insight or "none",
+        "signal": signal,
+        "sentiment": sentiment,
+        "confidence": confidence,
+        "executed": executed
     }
+
 
     if os.path.exists(JOURNAL_LOG):
         try:
