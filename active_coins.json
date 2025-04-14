@@ -1,14 +1,9 @@
 [
-  "solana",
-  "dogecoin",
-  "avalanche-2",
-  "chainlink",
-  "sui",
+  "stellar",
   "bitcoin-cash",
   "hyperliquid",
-  "coinbase-wrapped-btc",
-  "pepe",
   "ondo-finance",
-  "aave",
-  "curve-dao-token"
+  "vechain",
+  "bonk",
+  "fartcoin"
 ]

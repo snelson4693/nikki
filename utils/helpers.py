@@ -8,6 +8,7 @@ from config_loader import get_personality_profile
 
 LOG_FILE = "logs/trade_log.csv"
 ERROR_LOG_FILE = "logs/error_log.json"
+GEO_EVENT_LOG = "logs/geopolitical_events.json"
 
 def log_trade(data, signal, status="executed"):
     tone = get_personality_profile().get("response_style", "professional")
@@ -76,3 +77,36 @@ def log_error(error_message, context=None):
     logs.append(log_entry)
     with open(ERROR_LOG_FILE, "w") as f:
         json.dump(logs[-500:], f, indent=2)
+def log_geopolitical_event(source, headline, impact="neutral"):
+    """
+    Logs major news headlines with potential market impact.
+
+    Args:
+        source (str): Source of the headline (e.g., 'BBC', 'Reuters').
+        headline (str): The actual headline text.
+        impact (str): One of 'bullish', 'bearish', or 'neutral'.
+    """
+    os.makedirs("logs", exist_ok=True)
+
+    log_entry = {
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "source": source,
+        "headline": headline,
+        "impact": impact
+    }
+
+    if os.path.exists(GEO_EVENT_LOG):
+        try:
+            with open(GEO_EVENT_LOG, "r") as f:
+                logs = json.load(f)
+        except json.JSONDecodeError:
+            logs = []
+    else:
+        logs = []
+
+    logs.append(log_entry)
+
+    with open(GEO_EVENT_LOG, "w") as f:
+        json.dump(logs[-200:], f, indent=2)
+
+    print(f"🌐 Logged event: [{impact.upper()}] {headline} ({source})")

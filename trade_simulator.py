@@ -4,9 +4,55 @@ from datetime import datetime
 from trade_engine import evaluate_trade
 from sentiment import summarize_sentiments
 from utils.helpers import log_error
+from config_loader import load_config
+from utils.helpers import log_message
+import random
+
 
 PATTERN_FILE = "logs/pattern_learning.json"
 SIMULATION_LOG = "logs/clone_decision_log.json"
+SIM_RESULT_FILE = "logs/simulation_results.json"
+
+def simulate_future_performance():
+    config = load_config()
+    base_buy = config.get("buy_rsi_threshold", 30)
+    base_sell = config.get("sell_rsi_threshold", 70)
+
+    clones = []
+
+    for i in range(5):
+        buy_threshold = base_buy + random.uniform(-2, 2)
+        sell_threshold = base_sell + random.uniform(-2, 2)
+
+        simulated_profit = simulate_trades(buy_threshold, sell_threshold)
+
+        clone = {
+            "buy_rsi_threshold": round(buy_threshold, 2),
+            "sell_rsi_threshold": round(sell_threshold, 2),
+            "simulated_profit": round(simulated_profit, 4),
+            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        }
+
+        clones.append(clone)
+
+    os.makedirs("logs", exist_ok=True)
+    with open(SIM_RESULT_FILE, "w") as f:
+        json.dump(clones, f, indent=2)
+
+    log_message(f"📊 Simulated strategy clones saved to {SIM_RESULT_FILE}")
+
+def simulate_trades(buy_rsi, sell_rsi):
+    # Simulate pseudo trade logic (replace this with more advanced logic later)
+    profit = 0
+    for _ in range(20):  # simulate 20 trades
+        rsi = random.uniform(10, 90)
+        if rsi < buy_rsi:
+            profit += random.uniform(-2, 4)
+        elif rsi > sell_rsi:
+            profit += random.uniform(-1, 5)
+        else:
+            profit += random.uniform(-1, 1)
+    return profit
 
 def run_simulation():
     if not os.path.exists(PATTERN_FILE):

@@ -3,6 +3,8 @@ import time
 from datetime import datetime
 from utils.helpers import log_geopolitical_event
 
+
+
 # Simulated geopolitical signals for now (replace later with API or RSS feed)
 SIMULATED_EVENTS = [
     {"type": "sanction", "region": "Russia", "impact": "medium", "description": "New sanctions on Russian banks."},

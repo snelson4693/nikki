@@ -30,6 +30,7 @@ from macro_tracker import log_macro_news
 from reflective_journal import log_reflection
 from self_reflection import reflect_on_decision
 from self_feedback import load_trade_log, evaluate_performance
+import shutil
 
 
 
@@ -112,11 +113,11 @@ def auto_sync_repos():
     while True:
         try:
             print(f"[{datetime.now().strftime('%H:%M:%S')}] 🔁 Auto-syncing Nikki's brain...")
-            subprocess.run(["python3", "brain_sync.py"], check=True)
+            subprocess.run(["python", "brain_sync.py"], check=True)
             print(f"[{datetime.now().strftime('%H:%M:%S')}] ✅ Brain synced.")
 
             print(f"[{datetime.now().strftime('%H:%M:%S')}] 🔁 Auto-syncing Nikki's code...")
-            subprocess.run(["python3", "github_sync.py"], check=True)
+            subprocess.run(["python", "github_sync.py"], check=True)
             print(f"[{datetime.now().strftime('%H:%M:%S')}] ✅ Code synced.")
         except subprocess.CalledProcessError as e:
             print(f"❌ Auto-sync error: {e}")
@@ -198,7 +199,7 @@ def trade_worker(coin, model, scaler):
             save_market_snapshot(data, sentiment, signal)
 
             # 🔁 Train brain in background after each trade
-            threading.Thread(target=lambda: os.system("python3 train_model_from_memory.py"), daemon=True).start()
+            threading.Thread(target=lambda: os.system("python train_model_from_memory.py"), daemon=True).start()
 
         except Exception as e:
             log_message(f"❌ Error in thread for {coin}: {e}")
@@ -208,7 +209,7 @@ def trade_worker(coin, model, scaler):
 def continuous_replay_testing():
     while True:
         print(f"[{datetime.now().strftime('%H:%M:%S')}] 🧠 Running strategy replay test...")
-        subprocess.run(["python3", "replay_test.py"])
+        subprocess.run(["python", "replay_test.py"])
         time.sleep(150)
 def auto_calibration_loop():
     while True:
@@ -233,7 +234,7 @@ def continuous_replay_testing():
     while True:
         try:
             print(f"[{datetime.now().strftime('%H:%M:%S')}] 🧠 Running replay accuracy test...")
-            subprocess.run(["python3", "replay_test.py"], check=True)
+            subprocess.run(["python", "replay_test.py"], check=True)
         except subprocess.CalledProcessError as e:
             print(f"❌ Replay accuracy test failed: {e}")
         time.sleep(300)  # Run every 5 minutes
@@ -241,7 +242,7 @@ def continuous_brain_training():
     while True:
         try:
             print(f"[{datetime.now().strftime('%H:%M:%S')}] 🧠 Retraining Nikki's brain from memory...")
-            subprocess.run(["python3", "train_model_from_memory.py"], check=True)
+            subprocess.run(["python", "train_model_from_memory.py"], check=True)
         except subprocess.CalledProcessError as e:
             print(f"❌ Brain training error: {e}")
         time.sleep(600)  # every 10 minutes
@@ -249,7 +250,7 @@ def simulated_clone_loop():
     while True:
         try:
             print(f"[{datetime.now().strftime('%H:%M:%S')}] 🧪 Running clone simulation...")
-            subprocess.run(["python3", "clone_engine.py"], check=True)
+            subprocess.run(["python", "clone_engine.py"], check=True)
         except subprocess.CalledProcessError as e:
             print(f"❌ Clone simulation error: {e}")
         time.sleep(600)  # every 10 minutes
@@ -286,9 +287,21 @@ def main():
         log_message("🚀 Nikki is starting...")
 
     os.system("git -C model pull")
-    os.system("cp model/model.pkl brain_repo/model.pkl")
-    os.system("cp model/scaler.pkl brain_repo/scaler.pkl")
+    shutil.copy("model/model.pkl", "brain_repo/model.pkl")
+    shutil.copy("model/scaler.pkl", "brain_repo/scaler.pkl")
     log_message("✅ Brain synced.")
+    try:
+        with open("active_coins.json", "r") as f:
+            coins = json.load(f)
+    except:
+        coins = ["bitcoin", "ethereum", "litecoin"]
+    try:
+        model, scaler = load_model()
+        if model is None or scaler is None:
+            raise ValueError("🚨 Model or scaler is not loaded correctly.")
+    except Exception as e:
+        print(f"❌ Failed to load model: {e}")
+        return  # prevent running if model fails
     
     scheduling_thread = threading.Thread(target=schedule_tasks, args=(model, scaler, coins), daemon=True)
     scheduling_thread.start()
@@ -340,13 +353,10 @@ def main():
         train_and_save_model()
         update_model_history()
 
-    try:
-        with open("active_coins.json", "r") as f:
-            coins = json.load(f)
-    except:
-        coins = ["bitcoin", "ethereum", "litecoin"]
 
-    model, scaler = load_model()
+
+
+
 
     for coin in coins:
         thread = threading.Thread(target=trade_worker, args=(coin, model, scaler), daemon=True)

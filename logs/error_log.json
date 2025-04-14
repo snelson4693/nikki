@@ -1,0 +1,167 @@
+[
+  {
+    "timestamp": "2025-04-14 18:28:36",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:solana"
+  },
+  {
+    "timestamp": "2025-04-14 18:28:38",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:dogecoin"
+  },
+  {
+    "timestamp": "2025-04-14 18:28:39",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:avalanche-2"
+  },
+  {
+    "timestamp": "2025-04-14 18:28:41",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:chainlink"
+  },
+  {
+    "timestamp": "2025-04-14 18:29:47",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:sui"
+  },
+  {
+    "timestamp": "2025-04-14 18:29:48",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:bitcoin-cash"
+  },
+  {
+    "timestamp": "2025-04-14 18:29:49",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:hyperliquid"
+  },
+  {
+    "timestamp": "2025-04-14 18:29:52",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:pepe"
+  },
+  {
+    "timestamp": "2025-04-14 18:29:53",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:coinbase-wrapped-btc"
+  },
+  {
+    "timestamp": "2025-04-14 18:31:02",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:aave"
+  },
+  {
+    "timestamp": "2025-04-14 18:31:03",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:ondo-finance"
+  },
+  {
+    "timestamp": "2025-04-14 18:31:05",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:curve-dao-token"
+  },
+  {
+    "timestamp": "2025-04-14 18:31:22",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:avalanche-2"
+  },
+  {
+    "timestamp": "2025-04-14 18:32:26",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:solana"
+  },
+  {
+    "timestamp": "2025-04-14 18:32:28",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:dogecoin"
+  },
+  {
+    "timestamp": "2025-04-14 18:32:33",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:chainlink"
+  },
+  {
+    "timestamp": "2025-04-14 18:33:36",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:sui"
+  },
+  {
+    "timestamp": "2025-04-14 18:33:41",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:pepe"
+  },
+  {
+    "timestamp": "2025-04-14 18:33:42",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:bitcoin-cash"
+  },
+  {
+    "timestamp": "2025-04-14 18:33:43",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:hyperliquid"
+  },
+  {
+    "timestamp": "2025-04-14 18:34:51",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:coinbase-wrapped-btc"
+  },
+  {
+    "timestamp": "2025-04-14 18:34:51",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:ondo-finance"
+  },
+  {
+    "timestamp": "2025-04-14 18:34:59",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:aave"
+  },
+  {
+    "timestamp": "2025-04-14 18:34:59",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:curve-dao-token"
+  },
+  {
+    "timestamp": "2025-04-14 18:35:09",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:solana"
+  },
+  {
+    "timestamp": "2025-04-14 18:36:18",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:avalanche-2"
+  },
+  {
+    "timestamp": "2025-04-14 18:36:18",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:dogecoin"
+  },
+  {
+    "timestamp": "2025-04-14 18:36:22",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:chainlink"
+  },
+  {
+    "timestamp": "2025-04-14 18:36:23",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:sui"
+  },
+  {
+    "timestamp": "2025-04-14 18:37:33",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:pepe"
+  },
+  {
+    "timestamp": "2025-04-14 18:37:34",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:hyperliquid"
+  },
+  {
+    "timestamp": "2025-04-14 18:37:35",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:bitcoin-cash"
+  },
+  {
+    "timestamp": "2025-04-14 18:37:35",
+    "error": "log_reflection() got an unexpected keyword argument 'executed'",
+    "context": "trade_worker:coinbase-wrapped-btc"
+  }
+]

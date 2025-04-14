@@ -1,3 +1,5 @@
+import os
+import json
 import threading
 import time
 from datetime import datetime
@@ -8,6 +10,9 @@ from trade_engine import evaluate_trade
 from risk_manager import is_trade_allowed
 from utils.helpers import log_message, adaptive_sleep
 from news_feed import get_headlines
+
+
+JOURNAL_LOG = "logs/reflective_journal.json"
 
 def schedule_tasks(model, scaler, coins):
     log_message("📅 Task scheduler thread started.")
@@ -50,3 +55,28 @@ def schedule_tasks(model, scaler, coins):
             log_message(f"❌ Error during scheduling logic: {e}")
 
         time.sleep(120)  # Evaluate every 2 minutes
+def log_reflection(source, message, insight=None):
+    os.makedirs("logs", exist_ok=True)
+
+    entry = {
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "source": source,
+        "message": message,
+        "insight": insight or "none"
+    }
+
+    if os.path.exists(JOURNAL_LOG):
+        try:
+            with open(JOURNAL_LOG, "r") as f:
+                journal = json.load(f)
+        except json.JSONDecodeError:
+            journal = []
+    else:
+        journal = []
+
+    journal.append(entry)
+
+    with open(JOURNAL_LOG, "w") as f:
+        json.dump(journal[-200:], f, indent=2)
+
+    print(f"📘 Reflection added from {source}: {message}")
