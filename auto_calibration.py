@@ -13,8 +13,14 @@ def auto_calibrate_strategy():
     with open(SIMULATION_LOG, "r") as f:
         data = json.load(f)
 
-    avg_actual = data.get("average_actual_profit", 0)
-    avg_simulated = data.get("average_simulated_profit", 0)
+    # Select the best performing clone from the list
+    if not isinstance(data, list) or not data:
+        print("⚠️ Simulation data is empty or malformed.")
+        return
+
+    best_clone = max(data, key=lambda x: x.get("profit", 0))
+    avg_actual = best_clone.get("average_actual_profit", 0)
+    avg_simulated = best_clone.get("average_simulated_profit", 0)
 
     if avg_simulated > avg_actual:
         print("🔧 Calibrating strategy — simulated trades outperformed real ones!")
