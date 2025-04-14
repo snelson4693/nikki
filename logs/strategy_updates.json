@@ -468,5 +468,41 @@
             "buy_rsi_threshold": 29.25,
             "sell_rsi_threshold": 71.44
         }
+    },
+    {
+        "timestamp": "2025-04-14 19:10:57",
+        "updated_strategy": {
+            "sell_rsi_threshold": 71,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-14 19:10:57",
+        "updated_strategy": {
+            "buy_rsi_threshold": 28.7,
+            "sell_rsi_threshold": 71.36
+        }
+    },
+    {
+        "timestamp": "2025-04-14 19:21:54",
+        "updated_strategy": {
+            "sell_rsi_threshold": 71,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-14 19:21:54",
+        "updated_strategy": {
+            "buy_rsi_threshold": 29.27,
+            "sell_rsi_threshold": 69.42
+        }
     }
 ]
