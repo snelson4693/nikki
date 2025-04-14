@@ -1,0 +1,178 @@
+[
+    {
+        "timestamp": "2025-04-12 22:46:02",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 22:46:21",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 22:48:32",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 22:51:02",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 22:53:32",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 22:56:02",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 22:58:32",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 23:01:02",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 23:03:32",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 23:06:02",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 23:08:32",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 23:11:02",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 23:13:32",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 23:16:02",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-12 23:18:32",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-04-13 09:06:15",
+        "updated_strategy": {
+            "sell_rsi_threshold": 70,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        }
+    }
+]

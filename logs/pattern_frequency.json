@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-04-12 10:52:45",
+  "rsi_clusters": [
+    {
+      "rsi": 53,
+      "count": 7
+    },
+    {
+      "rsi": 35,
+      "count": 5
+    },
+    {
+      "rsi": 42,
+      "count": 5
+    },
+    {
+      "rsi": 48,
+      "count": 5
+    },
+    {
+      "rsi": 44,
+      "count": 4
+    },
+    {
+      "rsi": 34,
+      "count": 4
+    },
+    {
+      "rsi": 40,
+      "count": 3
+    },
+    {
+      "rsi": 41,
+      "count": 3
+    },
+    {
+      "rsi": 49,
+      "count": 3
+    },
+    {
+      "rsi": 30,
+      "count": 3
+    }
+  ]
+}

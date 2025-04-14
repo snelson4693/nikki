@@ -1,0 +1,80 @@
+[
+    {
+        "performance_metrics": {
+            "total_profit": 0.0,
+            "total_trades": 0,
+            "average_profit": 0
+        },
+        "adjustments": {
+            "min_confidence": 0.8,
+            "max_trade_amount": 100,
+            "min_trade_amount": 0.01
+        },
+        "timestamp": "2025-04-14T10:26:15.939611"
+    },
+    {
+        "performance_metrics": {
+            "total_profit": 0.0,
+            "total_trades": 0,
+            "average_profit": 0
+        },
+        "adjustments": {
+            "min_confidence": 0.8,
+            "max_trade_amount": 100,
+            "min_trade_amount": 0.01
+        },
+        "timestamp": "2025-04-14T10:30:03.052318"
+    },
+    {
+        "performance_metrics": {
+            "total_profit": 0.0,
+            "total_trades": 27,
+            "average_profit": 0.0
+        },
+        "adjustments": {
+            "min_confidence": 0.8,
+            "max_trade_amount": 100,
+            "min_trade_amount": 0.01
+        },
+        "timestamp": "2025-04-14T10:32:06.011208"
+    },
+    {
+        "performance_metrics": {
+            "total_profit": 0.0,
+            "total_trades": 27,
+            "average_profit": 0.0
+        },
+        "adjustments": {
+            "min_confidence": 0.8,
+            "max_trade_amount": 100,
+            "min_trade_amount": 0.01
+        },
+        "timestamp": "2025-04-14T10:34:34.047548"
+    },
+    {
+        "performance_metrics": {
+            "total_profit": 0.0,
+            "total_trades": 0,
+            "average_profit": 0
+        },
+        "adjustments": {
+            "min_confidence": 0.8,
+            "max_trade_amount": 100,
+            "min_trade_amount": 0.01
+        },
+        "timestamp": "2025-04-14T10:37:13.770715"
+    },
+    {
+        "performance_metrics": {
+            "total_profit": 0.0,
+            "total_trades": 27,
+            "average_profit": 0.0
+        },
+        "adjustments": {
+            "min_confidence": 0.8,
+            "max_trade_amount": 100,
+            "min_trade_amount": 0.01
+        },
+        "timestamp": "2025-04-14T10:38:04.530697"
+    }
+]

@@ -2,14 +2,23 @@
     "exchange": "coingecko",
     "min_volume": 100000,
     "strategy": {
-      "buy_rsi_threshold": 40,
-      "sell_rsi_threshold": 60,
-      "sentiment_bias": 0
+        "buy_rsi_threshold": 40,
+        "sell_rsi_threshold": 70,
+        "sentiment_bias": 0,
+        "profit_rsi_range": {
+            "min": null,
+            "max": null
+        }
     },
     "settings": {
-      "min_confidence": 0.6,
-      "max_trade_amount": 10,
-      "min_trade_amount": 0.01
-    }
-  }
-  
+        "min_confidence": 0.6,
+        "max_trade_amount": 10,
+        "min_trade_amount": 0.01
+    },
+    "personality": {
+        "confidence_tone": "neutral",
+        "risk_profile": "balanced",
+        "response_style": "professional"
+}
+
+}

@@ -43,7 +43,6 @@ def train_and_save_model():
     model.fit(X_train, y_train)
     accuracy = model.score(X_test, y_test)
 
-    # Save model + scaler
     os.makedirs("model", exist_ok=True)
     joblib.dump(model, MODEL_FILE)
     joblib.dump(scaler, SCALER_FILE)
@@ -52,27 +51,46 @@ def train_and_save_model():
     return model, scaler
 
 def load_model():
-    if os.path.exists(MODEL_FILE) and os.path.exists(SCALER_FILE):
-        model = joblib.load(MODEL_FILE)
-        scaler = joblib.load(SCALER_FILE)
-        print("🧠 Loaded saved model and scaler.")
-        return model, scaler
-    else:
-        print("📦 No saved model found — training new one...")
-        return train_and_save_model()
+    try:
+        if os.path.exists(MODEL_FILE) and os.path.exists(SCALER_FILE):
+            model = joblib.load(MODEL_FILE)
+            scaler = joblib.load(SCALER_FILE)
+            print("🧠 Loaded saved model and scaler.")
+            return model, scaler
+        else:
+            print("📦 No saved model found — training new one...")
+            return train_and_save_model()
+    except Exception as e:
+        print(f"❌ Model load error: {e}")
+        return None
 
 def predict_price_movement(model, scaler, data, sentiment_summary):
     try:
-        sentiment_score = sentiment_summary["positive"] - sentiment_summary["negative"]
-        input_features = [[data["rsi"], data["volume"], sentiment_score]]
-        input_scaled = scaler.transform(input_features)
-        prob = model.predict_proba(input_scaled)[0][1]  # Confidence price will go UP
-        print(f"🔮 Prediction confidence: {prob:.2f}")
+        sentiment_score = sentiment_summary.get("positive", 0) - sentiment_summary.get("negative", 0)
+        rsi = float(data.get("rsi", 50))
+        volume = float(data.get("volume", 0))
 
-        return prob >= CONFIDENCE_THRESHOLD  # Only trade if confidence is high
+        input_features = [[rsi, volume, sentiment_score]]
+        input_scaled = scaler.transform(input_features)
+        prob = model.predict_proba(input_scaled)[0][1]
+
+        # 🧠 Inject emotional bias
+        adjusted_prob = prob
+        if sentiment_score > 3:
+            adjusted_prob += 0.05  # Greed — boost optimism
+        elif sentiment_score < -3:
+            adjusted_prob -= 0.05  # Fear — reduce confidence
+
+        adjusted_prob = max(0.0, min(1.0, adjusted_prob))  # Clamp between 0–1
+
+        print(f"🔮 Base: {prob:.2f} | Bias-adjusted: {adjusted_prob:.2f} → {'✅ Confident' if adjusted_prob >= CONFIDENCE_THRESHOLD else '❌ Not confident'}")
+
+        data["confidence"] = adjusted_prob  # 🔁 Attach adjusted confidence back to data
+        return adjusted_prob >= CONFIDENCE_THRESHOLD
     except Exception as e:
         print(f"❌ Prediction error: {e}")
         return False
+
 
 if __name__ == "__main__":
     train_and_save_model()

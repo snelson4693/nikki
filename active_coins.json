@@ -1,17 +1,14 @@
 [
-  "ripple",
+  "solana",
   "dogecoin",
   "avalanche-2",
-  "the-open-network",
+  "chainlink",
+  "sui",
   "bitcoin-cash",
-  "pi-network",
-  "uniswap",
+  "hyperliquid",
+  "coinbase-wrapped-btc",
   "pepe",
-  "mantle",
+  "ondo-finance",
   "aave",
-  "render-token",
-  "filecoin",
-  "sonic-3",
-  "bonk",
-  "worldcoin-wld"
+  "curve-dao-token"
 ]

@@ -1,0 +1,178 @@
+[
+  {
+    "timestamp": null,
+    "coin": "wrapped-bitcoin",
+    "action": "buy",
+    "price": 83184,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "shiba-inu",
+    "action": "buy",
+    "price": 1.219e-05,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "bitcoin",
+    "action": "buy",
+    "price": 83354.0,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "polkadot",
+    "action": "buy",
+    "price": 3.57,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "coinbase-wrapped-btc",
+    "action": "buy",
+    "price": 83337.0,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "wrapped-bitcoin",
+    "action": "buy",
+    "price": 83456.0,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "coinbase-wrapped-btc",
+    "action": "buy",
+    "price": 83481.0,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "kaspa",
+    "action": "buy",
+    "price": 0.074341,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "bitcoin",
+    "action": "buy",
+    "price": 83439.0,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "bitcoin",
+    "action": "buy",
+    "price": 84449.0,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "pepe",
+    "action": "buy",
+    "price": 7.18e-06,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "the-open-network",
+    "action": "buy",
+    "price": 3.02,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "bitget-token",
+    "action": "buy",
+    "price": 4.48,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "uniswap",
+    "action": "buy",
+    "price": 5.52,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "pepe",
+    "action": "buy",
+    "price": 7.24e-06,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "the-open-network",
+    "action": "buy",
+    "price": 3.02,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "bitget-token",
+    "action": "buy",
+    "price": 4.4,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "uniswap",
+    "action": "buy",
+    "price": 5.54,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "bitcoin-cash",
+    "action": "buy",
+    "price": 329.44,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "uniswap",
+    "action": "buy",
+    "price": 5.53,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "coinbase-wrapped-btc",
+    "action": "buy",
+    "price": 84797.0,
+    "amount": 10,
+    "emotion": "neutral"
+  },
+  {
+    "timestamp": null,
+    "coin": "binancecoin",
+    "action": "buy",
+    "price": 598.54,
+    "amount": 10,
+    "emotion": "neutral"
+  }
+]
