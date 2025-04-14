@@ -318,11 +318,15 @@ def main():
     calibration_thread = threading.Thread(target=auto_calibration_loop, daemon=True)
     calibration_thread.start()
 
-    mutation_thread = threading.Thread(target=brain_mutation_loop, daemon=True)
-    mutation_thread.start()
+    # Start the thread for brain mutation logic
+    brain_mutation_thread = threading.Thread(target=brain_mutation_loop, daemon=True)
+    brain_mutation_thread.start()
 
-    mutation = threading.Thread(target=mutation_thread, daemon=True)
-    mutation.start()
+    # Start the thread for the mutation engine
+    mutation_engine_thread = threading.Thread(target=mutation_thread, daemon=True)
+    mutation_engine_thread.start()
+
+
 
     # Replay-based accuracy tuning
     replay_thread = threading.Thread(target=continuous_replay_testing, daemon=True)
