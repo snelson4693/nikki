@@ -7,7 +7,7 @@ def run_main():
     while True:
         try:
             print("🧠 Starting Nikki Brain...")
-            subprocess.run(["python3", "main.py"], check=True)
+            subprocess.run(["python", "main.py"], check=True)
         except subprocess.CalledProcessError as e:
             print("❌ Nikki Brain crashed.")
             traceback.print_exc()
@@ -17,7 +17,7 @@ def run_dashboard():
     while True:
         try:
             print("🖥️ Starting Nikki Dashboard...")
-            subprocess.run(["python3", "dashboard/app.py"], check=True)
+            subprocess.run(["python", "dashboard/app.py"], check=True)
         except subprocess.CalledProcessError as e:
             print("❌ Dashboard crashed.")
             traceback.print_exc()
