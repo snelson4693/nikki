@@ -6,7 +6,7 @@ import requests
 import difflib
 import traceback
 from datetime import datetime
-from utils.sandbox import test_code_in_sandbox
+from utils.sandbox import run_code_sandbox
 from utils.file_utils import read_file_lines, write_file_lines
 
 BUG_REPORT_FILE = "bug_reports.txt"
@@ -70,7 +70,7 @@ def attempt_patch(file_path, buggy_line, new_line, explanation_url):
         return False
 
     write_file_lines(file_path, lines)
-    success = test_code_in_sandbox(file_path)
+    success = run_code_sandbox(file_path)
 
     save_patch_history({
         "timestamp": datetime.now().isoformat(),

@@ -31,7 +31,8 @@ from reflective_journal import log_reflection
 from self_reflection import reflect_on_decision
 from self_feedback import load_trade_log, evaluate_performance
 import shutil
-from self_debugger import start_self_debugger
+from self_debugger import SelfDebugger
+from self_patch import self_patch_loop
 
 
 
@@ -351,6 +352,9 @@ def main():
     macro_thread = threading.Thread(target=macro_insight_loop, daemon=True)
     macro_thread.start()
 
+    # Start self-patching engine in the background
+    threading.Thread(target=self_patch_loop, daemon=True).start()
+
 
     refresh_coin_list()
     analyze_patterns()
@@ -373,5 +377,5 @@ def main():
         time.sleep(60)
 
 if __name__ == "__main__":
-    start_self_debugger()
+    SelfDebugger()
     main()
