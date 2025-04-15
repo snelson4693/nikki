@@ -9,7 +9,7 @@ from config_loader import load_config
 LOG_PATH = "logs/nikki.log"
 ERROR_LOG_PATH = "logs/error_patterns.json"
 BUG_REPORT_PATH = "logs/bug_reports.txt"
-ERROR_POOL_PATH = "brain_repo/logs/error_pool.json"
+ERROR_POOL_PATH = "logs/error_pool.json"
 
 class SelfDebugger(threading.Thread):
     def __init__(self, log_path=LOG_PATH):

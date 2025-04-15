@@ -11,7 +11,7 @@ from utils.file_utils import read_file_lines, write_file_lines
 from config_loader import load_config
 
 BUG_REPORT_FILE = "logs/bug_reports.txt"
-ERROR_POOL_FILE = "brain_repo/logs/error_pool.json"
+ERROR_POOL_FILE = "logs/error_pool.json"
 PATCH_HISTORY_FILE = "logs/patch_history.json"
 SOURCES_FILE = "patch_sources.json"
 CHECK_INTERVAL = 180  # seconds

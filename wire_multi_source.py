@@ -57,7 +57,7 @@ def extract_dynamic_queries():
         pass
 
     try:
-        with open("brain_repo/logs/error_pool.json", "r") as f:
+        with open("logs/error_pool.json", "r") as f:
             errors = json.load(f)
             logs += [entry.get("error", "") for entry in errors if isinstance(entry, dict)]
     except:
