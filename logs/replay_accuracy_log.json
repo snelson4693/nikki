@@ -78,5 +78,12 @@
       "buy_rsi_threshold": 29.42,
       "sell_rsi_threshold": 70.81
     }
-  }
-]
+  },
+  {
+    "timestamp": "2025-04-14 21:04:40",
+    "accuracy": 59.67741935483871,
+    "adjustments": {
+      "buy_rsi_threshold": 27.08,
+      "sell_rsi_threshold": 71.07
+    }
+  },
