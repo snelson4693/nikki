@@ -1,0 +1,752 @@
+[
+  {
+    "timestamp": "2025-04-11 22:51:13",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-11 22:51:13",
+      "rsi": "41.97",
+      "price": "1553.7",
+      "volume": "13004553351.0",
+      "sentiment_positive": "0",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "5",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-11 23:02:55",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-11 23:02:55",
+      "rsi": "52.62",
+      "price": "82924.0",
+      "volume": "37066106037.0",
+      "sentiment_positive": "0",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "5",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-11 23:02:56",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-11 23:02:56",
+      "rsi": "41.97",
+      "price": "1549.64",
+      "volume": "12656095338.0",
+      "sentiment_positive": "0",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "5",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-11 23:36:26",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-11 23:36:26",
+      "rsi": "48.39",
+      "price": "82995",
+      "volume": "35012505634.59043",
+      "sentiment_positive": "0",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "5",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-11 23:36:46",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-11 23:36:46",
+      "rsi": "40.68",
+      "price": "1551.25",
+      "volume": "12787318742.085888",
+      "sentiment_positive": "0",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "5",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-11 23:37:06",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-11 23:37:06",
+      "rsi": "34.45",
+      "price": "75.26",
+      "volume": "355395193.8386788",
+      "sentiment_positive": "0",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "5",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-11 23:37:06",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-11 23:37:06",
+      "rsi": "34.45",
+      "price": "75.26",
+      "volume": "355395193.8386788",
+      "sentiment_positive": "0",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "5",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 00:30:46",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 00:30:46",
+      "rsi": "48.96",
+      "price": "83084",
+      "volume": "36419941093.64819",
+      "sentiment_positive": "3",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "7",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 00:31:06",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 00:31:06",
+      "rsi": "47.57",
+      "price": "82994",
+      "volume": "367427304.859622",
+      "sentiment_positive": "3",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "6",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 00:39:14",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 00:39:14",
+      "rsi": "48.96",
+      "price": "83018",
+      "volume": "36844922774.12319",
+      "sentiment_positive": "3",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "7",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 00:39:34",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 00:39:34",
+      "rsi": "47.57",
+      "price": "82981",
+      "volume": "366773070.4482337",
+      "sentiment_positive": "3",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "6",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 00:54:30",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 00:54:30",
+      "rsi": "48.04",
+      "price": "83146.0",
+      "volume": "36671396604.111336",
+      "sentiment_positive": "3",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "7",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 00:54:34",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 00:54:34",
+      "rsi": "47.57",
+      "price": "83154.0",
+      "volume": "368973798.8091397",
+      "sentiment_positive": "3",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "6",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 01:05:49",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 01:05:49",
+      "rsi": "25.38",
+      "price": "83184",
+      "volume": "372086618",
+      "sentiment_positive": "3",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "6",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 01:05:53",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 01:05:53",
+      "rsi": "31.82",
+      "price": "1.219e-05",
+      "volume": "161194702",
+      "sentiment_positive": "3",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "6",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 01:30:58",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 01:30:58",
+      "rsi": "30.54607141247824",
+      "price": "83354.0",
+      "volume": "34618225130.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "7",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 01:33:12",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 01:33:12",
+      "rsi": "30.50591318764367",
+      "price": "3.57",
+      "volume": "132764585.0",
+      "sentiment_positive": "1",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "9",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 01:34:20",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 01:34:20",
+      "rsi": "30.060285201546613",
+      "price": "83337.0",
+      "volume": "299899854.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "2",
+      "sentiment_neutral": "5",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 02:16:35",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 02:16:35",
+      "rsi": "37.423876806208455",
+      "price": "83456.0",
+      "volume": "374433827.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "6",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 02:18:51",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 02:18:51",
+      "rsi": "38.58758370494935",
+      "price": "83481.0",
+      "volume": "295669018.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "2",
+      "sentiment_neutral": "5",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 02:19:58",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 02:19:58",
+      "rsi": "30.309866101335246",
+      "price": "0.074341",
+      "volume": "127996279.0",
+      "sentiment_positive": "0",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "10",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 02:20:32",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 02:20:32",
+      "rsi": "35.29561273356852",
+      "price": "83439.0",
+      "volume": "34917554217.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "7",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 02:22:16",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 02:22:16",
+      "rsi": "40.832826228884294",
+      "price": "4.32",
+      "volume": "125523986.0",
+      "sentiment_positive": "2",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "8",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 02:23:57",
+    "coin": "unknown",
+    "error": "Expecting value: line 1 column 1 (char 0)",
+    "raw_row": {
+      "timestamp": "2025-04-12 02:23:57",
+      "rsi": "46.17417868889248",
+      "price": "3.86",
+      "volume": "287452571.0",
+      "sentiment_positive": "2",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "8",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 02:25:06",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 02:25:06",
+      "rsi": "42.02638668828527",
+      "price": "83472.0",
+      "volume": "35962488341.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "7",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 02:25:40",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 02:25:40",
+      "rsi": "42.28112919564311",
+      "price": "83429.0",
+      "volume": "347069285.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "6",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 02:26:15",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 02:26:15",
+      "rsi": "41.117776666516306",
+      "price": "1.226e-05",
+      "volume": "151779787.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "6",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:09:33",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:09:33",
+      "rsi": "35.10549322676541",
+      "price": "84449.0",
+      "volume": "26585627603.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "6",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:11:19",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:11:19",
+      "rsi": "43.45306956887036",
+      "price": "1.246e-05",
+      "volume": "136999513.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "6",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:11:54",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:11:54",
+      "rsi": "40.06649902319126",
+      "price": "322.97",
+      "volume": "202880588.0",
+      "sentiment_positive": "2",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "8",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:12:28",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:12:28",
+      "rsi": "43.915107053853156",
+      "price": "4.45",
+      "volume": "104738681.0",
+      "sentiment_positive": "2",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "8",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:15:19",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:15:19",
+      "rsi": "31.542458572159646",
+      "price": "7.18e-06",
+      "volume": "506205612.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "2",
+      "sentiment_neutral": "5",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:25:17",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:25:17",
+      "rsi": "54.532484835703734",
+      "price": "596.49",
+      "volume": "513346489.0",
+      "sentiment_positive": "4",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "5",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:26:25",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:26:25",
+      "rsi": "43.81010427329444",
+      "price": "0.245613",
+      "volume": "147015113.0",
+      "sentiment_positive": "2",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "8",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:27:00",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:27:00",
+      "rsi": "35.37851304670454",
+      "price": "3.02",
+      "volume": "203113925.0",
+      "sentiment_positive": "1",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "9",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:29:14",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:29:14",
+      "rsi": "30.145519491745635",
+      "price": "4.48",
+      "volume": "104845971.0",
+      "sentiment_positive": "2",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "8",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:30:21",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:30:21",
+      "rsi": "35.05469600809025",
+      "price": "5.52",
+      "volume": "110364646.0",
+      "sentiment_positive": "1",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "9",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:31:28",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:31:28",
+      "rsi": "35.50878743865345",
+      "price": "7.24e-06",
+      "volume": "514377107.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "2",
+      "sentiment_neutral": "5",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:33:39",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:33:39",
+      "rsi": "40.05009259647458",
+      "price": "597.26",
+      "volume": "484712339.0",
+      "sentiment_positive": "4",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "5",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:35:22",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:35:22",
+      "rsi": "33.27991263260671",
+      "price": "3.02",
+      "volume": "207578183.0",
+      "sentiment_positive": "1",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "9",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:37:39",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:37:39",
+      "rsi": "38.790531076064",
+      "price": "4.4",
+      "volume": "111003178.0",
+      "sentiment_positive": "2",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "8",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:38:48",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:38:48",
+      "rsi": "33.83512342466189",
+      "price": "5.54",
+      "volume": "120721966.0",
+      "sentiment_positive": "1",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "9",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:40:28",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:40:28",
+      "rsi": "48.895391537126415",
+      "price": "2.2",
+      "volume": "141793884.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "7",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:43:39",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:43:39",
+      "rsi": "41.685591435978374",
+      "price": "598.94",
+      "volume": "526801585.0",
+      "sentiment_positive": "4",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "5",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:44:48",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:44:48",
+      "rsi": "46.4124105003603",
+      "price": "0.247772",
+      "volume": "149726026.0",
+      "sentiment_positive": "2",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "8",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:45:58",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:45:58",
+      "rsi": "45.05937279630551",
+      "price": "1.255e-05",
+      "volume": "139907995.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "6",
+      "trade_action": "none"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:46:33",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:46:33",
+      "rsi": "33.05197204677968",
+      "price": "329.44",
+      "volume": "179579504.0",
+      "sentiment_positive": "2",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "8",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:48:49",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:48:49",
+      "rsi": "34.35547419228953",
+      "price": "5.53",
+      "volume": "121519013.0",
+      "sentiment_positive": "1",
+      "sentiment_negative": "0",
+      "sentiment_neutral": "9",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:49:22",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:49:22",
+      "rsi": "33.48033898181318",
+      "price": "84797.0",
+      "volume": "248542681.0",
+      "sentiment_positive": "3",
+      "sentiment_negative": "2",
+      "sentiment_neutral": "5",
+      "trade_action": "buy"
+    }
+  },
+  {
+    "timestamp": "2025-04-12 10:52:45",
+    "coin": "unknown",
+    "error": "'NoneType' object has no attribute 'upper'",
+    "raw_row": {
+      "timestamp": "2025-04-12 10:52:45",
+      "rsi": "36.38275459627729",
+      "price": "598.54",
+      "volume": "530410142.0",
+      "sentiment_positive": "4",
+      "sentiment_negative": "1",
+      "sentiment_neutral": "5",
+      "trade_action": "buy"
+    }
+  }
+]

@@ -1,144 +1,17 @@
 [
     {
-        "timestamp": "2025-04-14 22:41:37",
+        "timestamp": "2025-04-15 16:07:43",
         "updated_strategy": {
-            "buy_rsi_threshold": 31.22,
-            "sell_rsi_threshold": 69.09
-        }
-    },
-    {
-        "timestamp": "2025-04-14 22:41:40",
-        "updated_strategy": {
-            "buy_rsi_threshold": 30.22,
-            "sell_rsi_threshold": 70.09
-        }
-    },
-    {
-        "timestamp": "2025-04-14 22:41:40",
-        "updated_strategy": {
-            "buy_rsi_threshold": 29.22,
-            "sell_rsi_threshold": 71.09
-        }
-    },
-    {
-        "timestamp": "2025-04-14 22:43:55",
-        "updated_strategy": {
-            "sell_rsi_threshold": 71,
-            "sentiment_bias": 0,
-            "profit_rsi_range": {
-                "min": null,
-                "max": null
-            }
-        }
-    },
-    {
-        "timestamp": "2025-04-14 22:43:55",
-        "updated_strategy": {
-            "buy_rsi_threshold": 30.74,
-            "sell_rsi_threshold": 69.05
-        }
-    },
-    {
-        "timestamp": "2025-04-14 22:43:58",
-        "updated_strategy": {
-            "buy_rsi_threshold": 29.74,
-            "sell_rsi_threshold": 70.05
-        }
-    },
-    {
-        "timestamp": "2025-04-14 22:43:58",
-        "updated_strategy": {
-            "buy_rsi_threshold": 28.74,
-            "sell_rsi_threshold": 71.05
-        }
-    },
-    {
-        "timestamp": "2025-04-14 22:49:01",
-        "updated_strategy": {
-            "buy_rsi_threshold": 27.74,
-            "sell_rsi_threshold": 72.05
-        }
-    },
-    {
-        "timestamp": "2025-04-14 22:49:01",
-        "updated_strategy": {
-            "buy_rsi_threshold": 26.74,
-            "sell_rsi_threshold": 73.05
-        }
-    },
-    {
-        "timestamp": "2025-04-14 22:54:03",
-        "updated_strategy": {
-            "buy_rsi_threshold": 25.74,
-            "sell_rsi_threshold": 74.05
-        }
-    },
-    {
-        "timestamp": "2025-04-14 22:54:03",
-        "updated_strategy": {
-            "buy_rsi_threshold": 24.74,
-            "sell_rsi_threshold": 75.05
-        }
-    },
-    {
-        "timestamp": "2025-04-14 22:59:05",
-        "updated_strategy": {
-            "buy_rsi_threshold": 23.74,
-            "sell_rsi_threshold": 76.05
-        }
-    },
-    {
-        "timestamp": "2025-04-14 23:04:08",
-        "updated_strategy": {
-            "buy_rsi_threshold": 22.74,
-            "sell_rsi_threshold": 77.05
-        }
-    },
-    {
-        "timestamp": "2025-04-14 23:04:08",
-        "updated_strategy": {
-            "buy_rsi_threshold": 21.74,
-            "sell_rsi_threshold": 78.05
-        }
-    },
-    {
-        "timestamp": "2025-04-14 23:09:11",
-        "updated_strategy": {
-            "buy_rsi_threshold": 20.74,
-            "sell_rsi_threshold": 79.05
-        }
-    },
-    {
-        "timestamp": "2025-04-14 23:14:15",
-        "updated_strategy": {
-            "buy_rsi_threshold": 19.74,
-            "sell_rsi_threshold": 80.05
-        }
-    },
-    {
-        "timestamp": "2025-04-14 23:14:15",
-        "updated_strategy": {
-            "buy_rsi_threshold": 18.74,
-            "sell_rsi_threshold": 81.05
-        }
-    },
-    {
-        "timestamp": "2025-04-15 16:07:40",
-        "updated_strategy": {
-            "sell_rsi_threshold": 71,
-            "sentiment_bias": 0,
-            "profit_rsi_range": {
-                "min": null,
-                "max": null
-            }
+            "buy_rsi_threshold": 30.31,
+            "sell_rsi_threshold": 71.32
         },
         "instance_id": "LAPTOP-B0TBR1MM"
-    }
-]    {
-        "timestamp": "2025-04-15 16:07:40",
+    },
+    {
+        "timestamp": "2025-04-15 16:07:43",
         "updated_strategy": {
-            "buy_rsi_threshold": 31.31,
-            "sell_rsi_threshold": 70.32
+            "buy_rsi_threshold": 29.31,
+            "sell_rsi_threshold": 72.32
         },
         "instance_id": "LAPTOP-B0TBR1MM"
     }
