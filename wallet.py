@@ -148,3 +148,8 @@ def execute_trade(trade, data):
 
     except Exception as e:
         print(f"❌ Wallet execution error: {e}")
+def get_asset_balance(symbol, wallet=None):
+    if wallet is None:
+        from wallet import load_wallet
+        wallet = load_wallet()
+    return wallet.get(symbol.lower(), 0.0)

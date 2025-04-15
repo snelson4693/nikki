@@ -1,11 +1,13 @@
 import os
 import json
 import csv
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Enhanced pattern tracker that fully replaces memory_engine functionality
 PATTERN_LOG_JSON = "logs/pattern_learning.json"
 PATTERN_LOG_CSV = "logs/pattern_memory.csv"
+TRADE_LOG = "logs/trade_log.csv"
+RECENT_WINDOW_MINUTES = 15
 
 def save_market_snapshot(data, sentiment_summary, trade_signal):
     os.makedirs("logs", exist_ok=True)
@@ -47,3 +49,22 @@ def save_market_snapshot(data, sentiment_summary, trade_signal):
         writer.writerow(record)
 
     return record
+def was_recent_trade(symbol):
+    if not os.path.exists(TRADE_LOG):
+        return False
+    try:
+        with open(TRADE_LOG, "r") as f:
+            lines = f.readlines()[::-1]  # read in reverse (most recent first)
+            for line in lines:
+                parts = line.strip().split(",")
+                if len(parts) < 2:
+                    continue
+                timestamp, coin = parts[0], parts[1]
+                if coin.lower() == symbol.lower():
+                    dt = datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S")
+                    if datetime.utcnow() - dt < timedelta(minutes=RECENT_WINDOW_MINUTES):
+                        return True
+                    break
+    except Exception as e:
+        print(f"❌ Error checking recent trades: {e}")
+    return False

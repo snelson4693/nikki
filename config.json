@@ -19,5 +19,6 @@
         "confidence_tone": "neutral",
         "risk_profile": "balanced",
         "response_style": "professional"
-    }
+    },
+    "instance_id": "replace-this-on-first-load"
 }

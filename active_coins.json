@@ -1,12 +1,9 @@
 [
-  "chainlink",
-  "shiba-inu",
+  "bitcoin",
+  "ethereum",
   "litecoin",
-  "pepe",
-  "aave",
-  "cosmos",
-  "fetch-ai",
-  "optimism",
-  "bonk",
-  "curve-dao-token"
+  "AAPL",
+  "MSFT",
+  "TSLA",
+  "GOOGL"
 ]

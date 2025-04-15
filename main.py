@@ -33,6 +33,18 @@ from self_feedback import load_trade_log, evaluate_performance
 import shutil
 from self_debugger import SelfDebugger
 from self_patch import self_patch_loop
+from device_identity import get_instance_id
+from sync_utils import pull_latest_brain, push_brain_update
+from log_merge_wiring import run_full_log_merge
+from model_fusion import fuse_models
+from wire_multi_source import start_multi_source_thread
+from cross_asset_coordinator import cross_asset_coordinator_loop
+
+
+
+
+
+
 
 
 
@@ -52,7 +64,11 @@ def schedule_tasks(model, scaler, coins):
             observations = []
 
             for coin in coins:
-                data = get_market_data(coin)
+                if coin.isupper():  # crude but works: assume all-uppercase means stock symbol
+                    data = get_market_data(coin, asset_type="stock")
+                else:
+                    data = get_market_data(coin, asset_type="crypto")
+
                 if not data or not is_trade_allowed(data):
                     continue
 
@@ -136,7 +152,11 @@ def continuous_self_training():
 def trade_worker(coin, model, scaler):
     while True:
         try:
-            data = get_market_data(coin)
+            if coin.isupper():  # crude but works: assume all-uppercase means stock symbol
+                data = get_market_data(coin, asset_type="stock")
+            else:
+                data = get_market_data(coin, asset_type="crypto")
+
             if not data:
                 log_message(f"❌ Failed to fetch data for {coin}")
                 adaptive_sleep(coin)
@@ -277,6 +297,14 @@ def macro_insight_loop():
         except Exception as e:
             print(f"❌ Macro loop error: {e}")
         time.sleep(3600)  # Once per hour
+def model_fusion_loop():
+    while True:
+        try:
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] 🧬 Running model fusion...")
+            fuse_models()
+        except Exception as e:
+            print(f"❌ Model fusion error: {e}")
+        time.sleep(1800)  # Every 30 minutes
 
 def main():
     personality = get_personality_profile()
@@ -288,6 +316,12 @@ def main():
         log_message("🔒 Initializing Nikki AI Trading Core...")
     else:
         log_message("🚀 Nikki is starting...")
+        pull_latest_brain()
+        log_message("🧠 Pulled latest brain from GitHub.")
+
+    # 🔁 Merge logs across devices before loading brain
+    run_full_log_merge()
+
 
     os.system("git -C model pull")
     shutil.copy("model/model.pkl", "brain_repo/model.pkl")
@@ -305,6 +339,8 @@ def main():
     except Exception as e:
         print(f"❌ Failed to load model: {e}")
         return  # prevent running if model fails
+    
+
     
     scheduling_thread = threading.Thread(target=schedule_tasks, args=(model, scaler, coins), daemon=True)
     scheduling_thread.start()
@@ -338,6 +374,11 @@ def main():
     # Live brain training thread
     brain_train_thread = threading.Thread(target=continuous_brain_training, daemon=True)
     brain_train_thread.start()
+    
+    fusion_thread = threading.Thread(target=model_fusion_loop, daemon=True)
+    fusion_thread.start()
+
+    
     # Clone simulation thread
     clone_sim_thread = threading.Thread(target=simulated_clone_loop, daemon=True)
     clone_sim_thread.start()
@@ -354,6 +395,11 @@ def main():
 
     # Start self-patching engine in the background
     threading.Thread(target=self_patch_loop, daemon=True).start()
+ 
+
+    cross_asset_coordinator_loop()
+    start_multi_source_thread()
+
 
 
     
@@ -372,7 +418,9 @@ def main():
         thread = threading.Thread(target=trade_worker, args=(coin, model, scaler), daemon=True)
         thread.start()
         time.sleep(1.5)
-   
+    push_brain_update()
+    log_message("🧠 Pushed brain update from this instance.")
+
     while True:
         time.sleep(60)
 
