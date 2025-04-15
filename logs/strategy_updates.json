@@ -34,17 +34,6 @@
     {
         "timestamp": "2025-04-14 22:43:55",
         "updated_strategy": {
-            "sell_rsi_threshold": 71,
-            "sentiment_bias": 0,
-            "profit_rsi_range": {
-                "min": null,
-                "max": null
-            }
-        }
-    },
-    {
-        "timestamp": "2025-04-14 22:43:55",
-        "updated_strategy": {
             "buy_rsi_threshold": 30.74,
             "sell_rsi_threshold": 69.05
         }
@@ -132,5 +121,25 @@
             "buy_rsi_threshold": 18.74,
             "sell_rsi_threshold": 81.05
         }
+    },
+    {
+        "timestamp": "2025-04-15 16:07:40",
+        "updated_strategy": {
+            "sell_rsi_threshold": 71,
+            "sentiment_bias": 0,
+            "profit_rsi_range": {
+                "min": null,
+                "max": null
+            }
+        },
+        "instance_id": "LAPTOP-B0TBR1MM"
+    }
+]    {
+        "timestamp": "2025-04-15 16:07:40",
+        "updated_strategy": {
+            "buy_rsi_threshold": 31.31,
+            "sell_rsi_threshold": 70.32
+        },
+        "instance_id": "LAPTOP-B0TBR1MM"
     }
 ]
