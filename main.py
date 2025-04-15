@@ -372,10 +372,11 @@ def main():
         thread = threading.Thread(target=trade_worker, args=(coin, model, scaler), daemon=True)
         thread.start()
         time.sleep(1.5)
-    refresh_coin_list()
+   
     while True:
         time.sleep(60)
 
 if __name__ == "__main__":
     SelfDebugger()
     main()
+    refresh_coin_list()
