@@ -347,7 +347,7 @@
   {
     "timestamp": "2025-04-12 02:23:57",
     "coin": "unknown",
-    "error": "Expecting value: line 1 column 1 (char 0)",
+    "error": "'NoneType' object has no attribute 'upper'",
     "raw_row": {
       "timestamp": "2025-04-12 02:23:57",
       "rsi": "46.17417868889248",
