@@ -356,13 +356,13 @@ def main():
     threading.Thread(target=self_patch_loop, daemon=True).start()
 
 
-    refresh_coin_list()
+    
     analyze_patterns()
     # Auto-retrain model if needed
     if should_retrain_model():
         train_and_save_model()
         update_model_history()
-
+    
 
 
 
@@ -372,7 +372,7 @@ def main():
         thread = threading.Thread(target=trade_worker, args=(coin, model, scaler), daemon=True)
         thread.start()
         time.sleep(1.5)
-
+    refresh_coin_list()
     while True:
         time.sleep(60)
 
