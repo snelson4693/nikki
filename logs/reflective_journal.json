@@ -1,142 +1,5 @@
 [
   {
-    "timestamp": "2025-04-14 22:05:35",
-    "source": "render-token",
-    "message": {
-      "price": 4.0,
-      "volume": 323111939.0,
-      "change_24h": 3.94935,
-      "rsi": 49.335827313089524,
-      "coin": "render-token"
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {},
-    "confidence": 0,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 22:06:56",
-    "source": "bitcoin-cash",
-    "message": {
-      "price": 322.67,
-      "volume": 252832073.0,
-      "change_24h": -8.56121,
-      "rsi": 33.40211796032458,
-      "coin": "bitcoin-cash",
-      "confidence": 0.586230061496338
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 2,
-      "negative": 0,
-      "neutral": 8
-    },
-    "confidence": 0.586230061496338,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 22:07:04",
-    "source": "ondo-finance",
-    "message": {
-      "price": 0.880659,
-      "volume": 170891171.0,
-      "change_24h": 1.63576,
-      "rsi": 57.027583905535245,
-      "coin": "ondo-finance",
-      "confidence": 0.6557593976205716
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    "confidence": 0.6557593976205716,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 22:07:05",
-    "source": "bonk",
-    "message": {
-      "price": 1.308e-05,
-      "volume": 119122403.0,
-      "change_24h": 0.85855,
-      "rsi": 53.965108287262346,
-      "coin": "bonk",
-      "confidence": 0.6563666080055863
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 2,
-      "negative": 1,
-      "neutral": 7
-    },
-    "confidence": 0.6563666080055863,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 22:07:07",
-    "source": "hyperliquid",
-    "message": {
-      "price": 16.13,
-      "volume": 41789889.0,
-      "change_24h": 4.83575,
-      "rsi": 49.51276534174346,
-      "coin": "hyperliquid"
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {},
-    "confidence": 0,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 22:07:08",
-    "source": "vechain",
-    "message": {
-      "price": 0.02360473,
-      "volume": 105667715.0,
-      "change_24h": 3.87067,
-      "rsi": 33.59315203824036,
-      "coin": "vechain",
-      "confidence": 0.6568966011570406
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 1,
-      "negative": 0,
-      "neutral": 9
-    },
-    "confidence": 0.6568966011570406,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 22:08:16",
-    "source": "fartcoin",
-    "message": {
-      "price": 0.912689,
-      "volume": 405904209.0,
-      "change_24h": 8.65731,
-      "rsi": 63.1628762153398,
-      "coin": "fartcoin",
-      "confidence": 0.7164835729017223
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 2,
-      "negative": 2,
-      "neutral": 6
-    },
-    "confidence": 0.7164835729017223,
-    "executed": false
-  },
-  {
     "timestamp": "2025-04-14 22:08:20",
     "source": "render-token",
     "message": {
@@ -3802,6 +3665,128 @@
       "neutral": 10
     },
     "confidence": 0.7172754899589339,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 23:14:20",
+    "source": "litecoin",
+    "message": {
+      "price": 77.96,
+      "volume": 346622917.0,
+      "change_24h": -1.70349,
+      "rsi": 43.58570182557517,
+      "coin": "litecoin"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 23:14:22",
+    "source": "aave",
+    "message": {
+      "price": 137.61,
+      "volume": 230154030.0,
+      "change_24h": -3.59217,
+      "rsi": 50.4611564090941,
+      "coin": "aave",
+      "confidence": 0.6552556090723627
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 1,
+      "neutral": 7
+    },
+    "confidence": 0.6552556090723627,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 23:15:26",
+    "source": "pepe",
+    "message": {
+      "price": 7.32e-06,
+      "volume": 672329074.0,
+      "change_24h": -3.62818,
+      "rsi": 65.52658425586878,
+      "coin": "pepe"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 23:15:27",
+    "source": "curve-dao-token",
+    "message": {
+      "price": 0.579125,
+      "volume": 184236095.0,
+      "change_24h": -3.35339,
+      "rsi": 36.778668744163255,
+      "coin": "curve-dao-token"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 23:15:27",
+    "source": "shiba-inu",
+    "message": {
+      "price": 1.188e-05,
+      "volume": 152660518.0,
+      "change_24h": -3.46542,
+      "rsi": 58.50829701991509,
+      "coin": "shiba-inu"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 23:15:27",
+    "source": "bonk",
+    "message": {
+      "price": 1.299e-05,
+      "volume": 112649762.0,
+      "change_24h": -1.14343,
+      "rsi": 42.87077827524776,
+      "coin": "bonk"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 23:15:58",
+    "source": "fetch-ai",
+    "message": {
+      "price": 0.483761,
+      "volume": 112358568.0,
+      "change_24h": -2.8835,
+      "rsi": 64.13360818695146,
+      "coin": "fetch-ai",
+      "confidence": 0.49127836661537133
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 4,
+      "negative": 0,
+      "neutral": 6
+    },
+    "confidence": 0.49127836661537133,
     "executed": false
   }
 ]
