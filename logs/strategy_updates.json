@@ -106,5 +106,21 @@
             "sell_rsi_threshold": 70.61
         },
         "instance_id": "LAPTOP-B0TBR1MM"
+    },
+    {
+        "timestamp": "2025-04-15 16:34:46",
+        "updated_strategy": {
+            "buy_rsi_threshold": 29.32,
+            "sell_rsi_threshold": 71.61
+        },
+        "instance_id": "LAPTOP-B0TBR1MM"
+    },
+    {
+        "timestamp": "2025-04-15 16:34:46",
+        "updated_strategy": {
+            "buy_rsi_threshold": 28.32,
+            "sell_rsi_threshold": 72.61
+        },
+        "instance_id": "LAPTOP-B0TBR1MM"
     }
 ]
