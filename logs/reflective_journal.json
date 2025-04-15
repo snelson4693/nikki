@@ -1,215 +1,5 @@
 [
   {
-    "timestamp": "2025-04-14 19:36:37",
-    "source": "bitcoin-cash",
-    "message": {
-      "price": 324.49,
-      "volume": 279019999.0,
-      "change_24h": -5.50912,
-      "rsi": 39.201392462129284,
-      "coin": "bitcoin-cash",
-      "confidence": 0.5858128421006217
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 2,
-      "negative": 0,
-      "neutral": 8
-    },
-    "confidence": 0.5858128421006217,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 19:36:37",
-    "source": "hyperliquid",
-    "message": {
-      "price": 15.79,
-      "volume": 121746489.0,
-      "change_24h": 3.4895,
-      "rsi": 60.368323349384234,
-      "coin": "hyperliquid",
-      "confidence": 0.7746693073866301
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 0,
-      "negative": 1,
-      "neutral": 9
-    },
-    "confidence": 0.7746693073866301,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 19:36:39",
-    "source": "ondo-finance",
-    "message": {
-      "price": 0.880897,
-      "volume": 174457148.0,
-      "change_24h": 4.39714,
-      "rsi": 64.42151301383602,
-      "coin": "ondo-finance",
-      "confidence": 0.6555807581952576
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    "confidence": 0.6555807581952576,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 19:36:40",
-    "source": "render-token",
-    "message": {
-      "price": 3.93,
-      "volume": 324906373.0,
-      "change_24h": 5.04318,
-      "rsi": 48.39409728208065,
-      "coin": "render-token",
-      "confidence": 0.5851013327188365
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 2,
-      "negative": 0,
-      "neutral": 8
-    },
-    "confidence": 0.5851013327188365,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 19:37:48",
-    "source": "vechain",
-    "message": {
-      "price": 0.0235284,
-      "volume": 102716431.0,
-      "change_24h": 3.90372,
-      "rsi": 47.82415992729622,
-      "coin": "vechain",
-      "confidence": 0.6566572679039793
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 1,
-      "negative": 0,
-      "neutral": 9
-    },
-    "confidence": 0.6566572679039793,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 19:37:49",
-    "source": "fartcoin",
-    "message": {
-      "price": 0.924,
-      "volume": 405576350.0,
-      "change_24h": 16.9845,
-      "rsi": 51.29542559532476,
-      "coin": "fartcoin",
-      "confidence": 0.7166900017420182
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 2,
-      "negative": 2,
-      "neutral": 6
-    },
-    "confidence": 0.7166900017420182,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 19:37:50",
-    "source": "story-2",
-    "message": {
-      "price": 3.8,
-      "volume": 138509537.0,
-      "change_24h": -2.75092,
-      "rsi": 67.33600392124367,
-      "coin": "story-2",
-      "confidence": 0.7189579319683764
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 2,
-      "negative": 2,
-      "neutral": 6
-    },
-    "confidence": 0.7189579319683764,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 19:37:51",
-    "source": "bonk",
-    "message": {
-      "price": 1.285e-05,
-      "volume": 122779597.0,
-      "change_24h": 2.60125,
-      "rsi": 50.06249996072377,
-      "coin": "bonk",
-      "confidence": 0.6564020935053347
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 2,
-      "negative": 1,
-      "neutral": 7
-    },
-    "confidence": 0.6564020935053347,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 19:38:16",
-    "source": "hyperliquid",
-    "message": {
-      "price": 15.8,
-      "volume": 121746814.0,
-      "change_24h": 3.50648,
-      "rsi": 48.68254355631814,
-      "coin": "hyperliquid",
-      "confidence": 0.774841320271959
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 0,
-      "negative": 1,
-      "neutral": 9
-    },
-    "confidence": 0.774841320271959,
-    "executed": false
-  },
-  {
-    "timestamp": "2025-04-14 19:38:16",
-    "source": "ondo-finance",
-    "message": {
-      "price": 0.880861,
-      "volume": 174467709.0,
-      "change_24h": 4.39288,
-      "rsi": 69.17096073545675,
-      "coin": "ondo-finance",
-      "confidence": 0.655490182353255
-    },
-    "insight": "none",
-    "signal": null,
-    "sentiment": {
-      "positive": 1,
-      "negative": 0,
-      "neutral": 8
-    },
-    "confidence": 0.655490182353255,
-    "executed": false
-  },
-  {
     "timestamp": "2025-04-14 19:39:21",
     "source": "bitcoin-cash",
     "message": {
@@ -2434,6 +2224,1904 @@
       "neutral": 6
     },
     "confidence": 0.7170318147538585,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:34:57",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.97,
+      "volume": 262658774.0,
+      "change_24h": -9.12972,
+      "rsi": 30.882189799952112,
+      "coin": "bitcoin-cash",
+      "confidence": 0.5861696104741827
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5861696104741827,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:36:06",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.882698,
+      "volume": 172978100.0,
+      "change_24h": 0.88141,
+      "rsi": 48.609784686675205,
+      "coin": "ondo-finance",
+      "confidence": 0.6558975329523095
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6558975329523095,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:36:09",
+    "source": "bonk",
+    "message": {
+      "price": 1.292e-05,
+      "volume": 123575270.0,
+      "change_24h": -0.46446,
+      "rsi": 53.55770798239168,
+      "coin": "bonk"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:36:11",
+    "source": "hyperliquid",
+    "message": {
+      "price": 16.02,
+      "volume": 41386254.0,
+      "change_24h": 4.28937,
+      "rsi": 60.23954951049677,
+      "coin": "hyperliquid",
+      "confidence": 0.7753296831532129
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 9
+    },
+    "confidence": 0.7753296831532129,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:36:22",
+    "source": "vechain",
+    "message": {
+      "price": 0.02341843,
+      "volume": 104546635.0,
+      "change_24h": 2.92614,
+      "rsi": 68.24187493856297,
+      "coin": "vechain",
+      "confidence": 0.6562494646595637
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    "confidence": 0.6562494646595637,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:37:27",
+    "source": "render-token",
+    "message": {
+      "price": 3.96,
+      "volume": 317990929.0,
+      "change_24h": 2.49075,
+      "rsi": 46.674151824036514,
+      "coin": "render-token",
+      "confidence": 0.585215435303214
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.585215435303214,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:37:29",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.919767,
+      "volume": 405686709.0,
+      "change_24h": 9.6986,
+      "rsi": 49.85031221386031,
+      "coin": "fartcoin",
+      "confidence": 0.716713698785697
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 2,
+      "neutral": 6
+    },
+    "confidence": 0.716713698785697,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:37:43",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.87,
+      "volume": 261915057.0,
+      "change_24h": -8.96658,
+      "rsi": 53.712948264923426,
+      "coin": "bitcoin-cash",
+      "confidence": 0.5857108628129103
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5857108628129103,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:38:52",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.883173,
+      "volume": 214819594.0,
+      "change_24h": 1.15244,
+      "rsi": 31.130491792639244,
+      "coin": "ondo-finance",
+      "confidence": 0.6557865294910024
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6557865294910024,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:38:55",
+    "source": "bonk",
+    "message": {
+      "price": 1.291e-05,
+      "volume": 123613249.0,
+      "change_24h": -0.50774,
+      "rsi": 68.43469696525753,
+      "coin": "bonk",
+      "confidence": 0.6560436488156184
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 1,
+      "neutral": 7
+    },
+    "confidence": 0.6560436488156184,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:38:58",
+    "source": "hyperliquid",
+    "message": {
+      "price": 15.88,
+      "volume": 116689823.0,
+      "change_24h": 3.39913,
+      "rsi": 56.29450762051619,
+      "coin": "hyperliquid",
+      "confidence": 0.7747707523939342
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 9
+    },
+    "confidence": 0.7747707523939342,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:39:07",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.916779,
+      "volume": 405265824.0,
+      "change_24h": 9.34221,
+      "rsi": 58.99552575847779,
+      "coin": "fartcoin",
+      "confidence": 0.7165610663691176
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 2,
+      "neutral": 6
+    },
+    "confidence": 0.7165610663691176,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:39:08",
+    "source": "vechain",
+    "message": {
+      "price": 0.02340036,
+      "volume": 104793156.0,
+      "change_24h": 2.84673,
+      "rsi": 66.01574031907487,
+      "coin": "vechain",
+      "confidence": 0.6562892101723368
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    "confidence": 0.6562892101723368,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:39:08",
+    "source": "render-token",
+    "message": {
+      "price": 3.95,
+      "volume": 321369760.0,
+      "change_24h": 2.2401,
+      "rsi": 64.45699252571194,
+      "coin": "render-token",
+      "confidence": 0.584812729344337
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.584812729344337,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:40:27",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.72,
+      "volume": 261510277.0,
+      "change_24h": -9.00896,
+      "rsi": 49.93452701648984,
+      "coin": "bitcoin-cash",
+      "confidence": 0.5857928131328256
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5857928131328256,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:40:31",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.880982,
+      "volume": 172769653.0,
+      "change_24h": 0.90142,
+      "rsi": 55.9108951169,
+      "coin": "ondo-finance",
+      "confidence": 0.6557607343502779
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6557607343502779,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:40:34",
+    "source": "bonk",
+    "message": {
+      "price": 1.291e-05,
+      "volume": 123411200.0,
+      "change_24h": -0.51895,
+      "rsi": 44.34384235837203,
+      "coin": "bonk",
+      "confidence": 0.6565041864569333
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 1,
+      "neutral": 7
+    },
+    "confidence": 0.6565041864569333,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:41:43",
+    "source": "hyperliquid",
+    "message": {
+      "price": 16.0,
+      "volume": 41639075.0,
+      "change_24h": 4.25139,
+      "rsi": 33.053874009665385,
+      "coin": "hyperliquid",
+      "confidence": 0.7757268147185873
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 9
+    },
+    "confidence": 0.7757268147185873,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:41:51",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.918432,
+      "volume": 405792253.0,
+      "change_24h": 9.72546,
+      "rsi": 55.440108476064864,
+      "coin": "fartcoin",
+      "confidence": 0.7166169495848735
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 2,
+      "neutral": 6
+    },
+    "confidence": 0.7166169495848735,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:41:53",
+    "source": "render-token",
+    "message": {
+      "price": 3.96,
+      "volume": 318387888.0,
+      "change_24h": 2.33139,
+      "rsi": 45.17081336722811,
+      "coin": "render-token",
+      "confidence": 0.5852416883437199
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5852416883437199,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:41:55",
+    "source": "vechain",
+    "message": {
+      "price": 0.02341458,
+      "volume": 104721835.0,
+      "change_24h": 2.91232,
+      "rsi": 65.88856689123327,
+      "coin": "vechain",
+      "confidence": 0.6562923859477066
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    "confidence": 0.6562923859477066,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:42:09",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.44,
+      "volume": 261285405.0,
+      "change_24h": -8.99783,
+      "rsi": 33.40458818518257,
+      "coin": "bitcoin-cash",
+      "confidence": 0.5861336529809088
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5861336529809088,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:42:13",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.880768,
+      "volume": 172672484.0,
+      "change_24h": 1.076,
+      "rsi": 36.637708334947654,
+      "coin": "ondo-finance",
+      "confidence": 0.6561286582270136
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6561286582270136,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:43:19",
+    "source": "bonk",
+    "message": {
+      "price": 1.289e-05,
+      "volume": 115478003.0,
+      "change_24h": -0.60489,
+      "rsi": 47.75356010506917,
+      "coin": "bonk",
+      "confidence": 0.656523394389427
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 1,
+      "neutral": 7
+    },
+    "confidence": 0.656523394389427,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:43:21",
+    "source": "hyperliquid",
+    "message": {
+      "price": 16.0,
+      "volume": 41256811.0,
+      "change_24h": 4.25053,
+      "rsi": 56.17156564974351,
+      "coin": "hyperliquid",
+      "confidence": 0.7753905094840874
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 9
+    },
+    "confidence": 0.7753905094840874,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:43:30",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.919198,
+      "volume": 405943539.0,
+      "change_24h": 9.81703,
+      "rsi": 38.93454645219995,
+      "coin": "fartcoin",
+      "confidence": 0.7168981581550913
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 2,
+      "neutral": 6
+    },
+    "confidence": 0.7168981581550913,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:43:33",
+    "source": "render-token",
+    "message": {
+      "price": 3.96,
+      "volume": 318139559.0,
+      "change_24h": 2.32889,
+      "rsi": 41.113841029269736,
+      "coin": "render-token",
+      "confidence": 0.5853275842911225
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5853275842911225,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:43:35",
+    "source": "vechain",
+    "message": {
+      "price": 0.02341022,
+      "volume": 104692093.0,
+      "change_24h": 2.89316,
+      "rsi": 51.75742878972323,
+      "coin": "vechain",
+      "confidence": 0.6565615285477184
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    "confidence": 0.6565615285477184,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:44:54",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.06,
+      "volume": 261277306.0,
+      "change_24h": -9.10362,
+      "rsi": 43.345612543494106,
+      "coin": "bitcoin-cash",
+      "confidence": 0.5859303175819756
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5859303175819756,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:44:57",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.880628,
+      "volume": 172522939.0,
+      "change_24h": 1.05983,
+      "rsi": 35.150457862773166,
+      "coin": "ondo-finance",
+      "confidence": 0.6561585479348029
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6561585479348029,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:45:00",
+    "source": "bonk",
+    "message": {
+      "price": 1.291e-05,
+      "volume": 115645401.0,
+      "change_24h": -0.46569,
+      "rsi": 69.09803807104251,
+      "coin": "bonk",
+      "confidence": 0.656115507280455
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 1,
+      "neutral": 7
+    },
+    "confidence": 0.656115507280455,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:45:02",
+    "source": "hyperliquid",
+    "message": {
+      "price": 16.01,
+      "volume": 41592949.0,
+      "change_24h": 4.30533,
+      "rsi": 37.31767984337135,
+      "coin": "hyperliquid",
+      "confidence": 0.7756646144821899
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 9
+    },
+    "confidence": 0.7756646144821899,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:45:08",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.918524,
+      "volume": 405758134.0,
+      "change_24h": 9.73651,
+      "rsi": 61.33447696081171,
+      "coin": "fartcoin",
+      "confidence": 0.7165162951221974
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 2,
+      "neutral": 6
+    },
+    "confidence": 0.7165162951221974,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:46:18",
+    "source": "vechain",
+    "message": {
+      "price": 0.02341752,
+      "volume": 103949463.0,
+      "change_24h": 2.98772,
+      "rsi": 34.631672020488246,
+      "coin": "vechain",
+      "confidence": 0.6568950556171442
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    "confidence": 0.6568950556171442,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:46:20",
+    "source": "render-token",
+    "message": {
+      "price": 3.97,
+      "volume": 321032252.0,
+      "change_24h": 2.63183,
+      "rsi": 59.6125366083637,
+      "coin": "render-token",
+      "confidence": 0.5849157959752409
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5849157959752409,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:46:34",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.02,
+      "volume": 260816166.0,
+      "change_24h": -9.39275,
+      "rsi": 63.151846310302986,
+      "coin": "bitcoin-cash",
+      "confidence": 0.5855301851273865
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5855301851273865,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:47:42",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.880976,
+      "volume": 172244351.0,
+      "change_24h": 1.44993,
+      "rsi": 34.9291616268347,
+      "coin": "ondo-finance",
+      "confidence": 0.6561657129221863
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6561657129221863,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:47:45",
+    "source": "bonk",
+    "message": {
+      "price": 1.294e-05,
+      "volume": 119955057.0,
+      "change_24h": -0.19902,
+      "rsi": 46.83597766301928,
+      "coin": "bonk"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:47:49",
+    "source": "hyperliquid",
+    "message": {
+      "price": 15.9,
+      "volume": 116700703.0,
+      "change_24h": 3.54095,
+      "rsi": 35.04581005445122,
+      "coin": "hyperliquid",
+      "confidence": 0.7750832764437087
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 9
+    },
+    "confidence": 0.7750832764437087,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:47:51",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.921168,
+      "volume": 406426060.0,
+      "change_24h": 10.17088,
+      "rsi": 38.33493425671894,
+      "coin": "fartcoin",
+      "confidence": 0.7169038213131566
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 2,
+      "neutral": 6
+    },
+    "confidence": 0.7169038213131566,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:49:01",
+    "source": "vechain",
+    "message": {
+      "price": 0.02342577,
+      "volume": 103954047.0,
+      "change_24h": 3.02399,
+      "rsi": 61.48947000980583,
+      "coin": "vechain",
+      "confidence": 0.6563842216136981
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    "confidence": 0.6563842216136981,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:49:06",
+    "source": "render-token",
+    "message": {
+      "price": 3.97,
+      "volume": 321056178.0,
+      "change_24h": 2.66924,
+      "rsi": 52.400311448159535,
+      "coin": "render-token",
+      "confidence": 0.5850632185426906
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5850632185426906,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:49:17",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.19,
+      "volume": 260738659.0,
+      "change_24h": -9.34605,
+      "rsi": 56.66047463952921,
+      "coin": "bitcoin-cash",
+      "confidence": 0.5856639457617807
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5856639457617807,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:49:22",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.882056,
+      "volume": 172662683.0,
+      "change_24h": 1.5743,
+      "rsi": 37.724274065137735,
+      "coin": "ondo-finance",
+      "confidence": 0.6561080827349783
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6561080827349783,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:49:23",
+    "source": "bonk",
+    "message": {
+      "price": 1.298e-05,
+      "volume": 122588965.0,
+      "change_24h": 0.13222,
+      "rsi": 62.15174277610666,
+      "coin": "bonk"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:50:34",
+    "source": "hyperliquid",
+    "message": {
+      "price": 16.02,
+      "volume": 115850667.0,
+      "change_24h": 4.31953,
+      "rsi": 45.09245260571891,
+      "coin": "hyperliquid",
+      "confidence": 0.7749424741209333
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 9
+    },
+    "confidence": 0.7749424741209333,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:50:37",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.923398,
+      "volume": 406851860.0,
+      "change_24h": 10.4375,
+      "rsi": 44.076711300445595,
+      "coin": "fartcoin",
+      "confidence": 0.7168014540929517
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 2,
+      "neutral": 6
+    },
+    "confidence": 0.7168014540929517,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:50:41",
+    "source": "vechain",
+    "message": {
+      "price": 0.02345361,
+      "volume": 104601084.0,
+      "change_24h": 3.14643,
+      "rsi": 56.66536993586718,
+      "coin": "vechain",
+      "confidence": 0.6564691368881552
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    "confidence": 0.6564691368881552,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:50:47",
+    "source": "render-token",
+    "message": {
+      "price": 3.97,
+      "volume": 318550112.0,
+      "change_24h": 2.72498,
+      "rsi": 48.056168160911604,
+      "coin": "render-token",
+      "confidence": 0.5851807593711114
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5851807593711114,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:50:58",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.59,
+      "volume": 260628055.0,
+      "change_24h": -8.57982,
+      "rsi": 45.24942240293915,
+      "coin": "bitcoin-cash",
+      "confidence": 0.5858987579024365
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5858987579024365,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:51:02",
+    "source": "bonk",
+    "message": {
+      "price": 1.3e-05,
+      "volume": 124506294.0,
+      "change_24h": 0.33148,
+      "rsi": 44.4683313782994,
+      "coin": "bonk",
+      "confidence": 0.6564902137792873
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 1,
+      "neutral": 7
+    },
+    "confidence": 0.6564902137792873,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:52:09",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.882596,
+      "volume": 172712088.0,
+      "change_24h": 1.50126,
+      "rsi": 66.190162009809,
+      "coin": "ondo-finance",
+      "confidence": 0.6555655880615698
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6555655880615698,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:52:13",
+    "source": "hyperliquid",
+    "message": {
+      "price": 16.02,
+      "volume": 115855454.0,
+      "change_24h": 4.34146,
+      "rsi": 32.496882235131984,
+      "coin": "hyperliquid",
+      "confidence": 0.7751276792180408
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 9
+    },
+    "confidence": 0.7751276792180408,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:52:16",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.920364,
+      "volume": 407150130.0,
+      "change_24h": 9.81095,
+      "rsi": 52.356153306594656,
+      "coin": "fartcoin",
+      "confidence": 0.7166568173349522
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 2,
+      "neutral": 6
+    },
+    "confidence": 0.7166568173349522,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:52:18",
+    "source": "vechain",
+    "message": {
+      "price": 0.02349461,
+      "volume": 106049588.0,
+      "change_24h": 3.47514,
+      "rsi": 66.53070254290324,
+      "coin": "vechain",
+      "confidence": 0.6562660932211883
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    "confidence": 0.6562660932211883,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:53:31",
+    "source": "render-token",
+    "message": {
+      "price": 3.99,
+      "volume": 319910203.0,
+      "change_24h": 3.50023,
+      "rsi": 46.6472939380553,
+      "coin": "render-token",
+      "confidence": 0.5851940926759659
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5851940926759659,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:53:44",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.59,
+      "volume": 260473277.0,
+      "change_24h": -8.58049,
+      "rsi": 34.85823543158236,
+      "coin": "bitcoin-cash",
+      "confidence": 0.5861131659434929
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5861131659434929,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:53:46",
+    "source": "bonk",
+    "message": {
+      "price": 1.303e-05,
+      "volume": 120763280.0,
+      "change_24h": 0.55186,
+      "rsi": 68.58523727675438,
+      "coin": "bonk"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:53:48",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.882635,
+      "volume": 172726550.0,
+      "change_24h": 1.50581,
+      "rsi": 69.1160752480015,
+      "coin": "ondo-finance",
+      "confidence": 0.6555097042568536
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6555097042568536,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:53:54",
+    "source": "hyperliquid",
+    "message": {
+      "price": 16.02,
+      "volume": 115872544.0,
+      "change_24h": 4.34662,
+      "rsi": 42.55226072233903,
+      "coin": "hyperliquid",
+      "confidence": 0.774979662416575
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 9
+    },
+    "confidence": 0.774979662416575,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:55:01",
+    "source": "vechain",
+    "message": {
+      "price": 0.02351646,
+      "volume": 106080800.0,
+      "change_24h": 3.57136,
+      "rsi": 62.00659341319898,
+      "coin": "vechain",
+      "confidence": 0.6563518420382022
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    "confidence": 0.6563518420382022,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:55:03",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.918897,
+      "volume": 407617057.0,
+      "change_24h": 9.63588,
+      "rsi": 59.58194453013613,
+      "coin": "fartcoin",
+      "confidence": 0.7165285786469374
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 2,
+      "neutral": 6
+    },
+    "confidence": 0.7165285786469374,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:55:12",
+    "source": "render-token",
+    "message": {
+      "price": 3.99,
+      "volume": 322337630.0,
+      "change_24h": 3.60706,
+      "rsi": 37.12566372496088,
+      "coin": "render-token",
+      "confidence": 0.5853613544534616
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5853613544534616,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:55:23",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.73,
+      "volume": 259485844.0,
+      "change_24h": -8.5413,
+      "rsi": 69.97753209094795,
+      "coin": "bitcoin-cash",
+      "confidence": 0.5854056240539098
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5854056240539098,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:55:27",
+    "source": "bonk",
+    "message": {
+      "price": 1.308e-05,
+      "volume": 125278010.0,
+      "change_24h": 0.94458,
+      "rsi": 40.29693987268747,
+      "coin": "bonk",
+      "confidence": 0.6565613809404431
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 1,
+      "neutral": 7
+    },
+    "confidence": 0.6565613809404431,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:56:34",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.883897,
+      "volume": 172946120.0,
+      "change_24h": 1.75155,
+      "rsi": 62.92716240844084,
+      "coin": "ondo-finance",
+      "confidence": 0.6556252508802419
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6556252508802419,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:56:40",
+    "source": "vechain",
+    "message": {
+      "price": 0.02353748,
+      "volume": 106160878.0,
+      "change_24h": 3.64842,
+      "rsi": 44.07232541588044,
+      "coin": "vechain",
+      "confidence": 0.6566921257183496
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    "confidence": 0.6566921257183496,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:56:41",
+    "source": "hyperliquid",
+    "message": {
+      "price": 16.04,
+      "volume": 116088868.0,
+      "change_24h": 4.52433,
+      "rsi": 53.86304627887242,
+      "coin": "hyperliquid",
+      "confidence": 0.7748114671905136
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 9
+    },
+    "confidence": 0.7748114671905136,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:56:41",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.922196,
+      "volume": 407764466.0,
+      "change_24h": 10.2798,
+      "rsi": 40.71947244385788,
+      "coin": "fartcoin",
+      "confidence": 0.7168502322319247
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 2,
+      "neutral": 6
+    },
+    "confidence": 0.7168502322319247,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:56:52",
+    "source": "render-token",
+    "message": {
+      "price": 4.0,
+      "volume": 322386185.0,
+      "change_24h": 3.73504,
+      "rsi": 61.94105884262227,
+      "coin": "render-token",
+      "confidence": 0.5848526604731629
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5848526604731629,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:57:01",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.77,
+      "volume": 258283114.0,
+      "change_24h": -7.96823,
+      "rsi": 41.84830874246238,
+      "coin": "bitcoin-cash",
+      "confidence": 0.5859950946499546
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5859950946499546,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:58:12",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.884281,
+      "volume": 172959609.0,
+      "change_24h": 1.79569,
+      "rsi": 36.21004462347105,
+      "coin": "ondo-finance",
+      "confidence": 0.6561337531404812
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6561337531404812,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:58:13",
+    "source": "bonk",
+    "message": {
+      "price": 1.309e-05,
+      "volume": 123550497.0,
+      "change_24h": 1.18393,
+      "rsi": 46.177262006720056,
+      "coin": "bonk",
+      "confidence": 0.6564678346294291
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 1,
+      "neutral": 7
+    },
+    "confidence": 0.6564678346294291,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:58:19",
+    "source": "vechain",
+    "message": {
+      "price": 0.02355499,
+      "volume": 105450279.0,
+      "change_24h": 3.72553,
+      "rsi": 62.15918397068237,
+      "coin": "vechain",
+      "confidence": 0.6563556218278943
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 9
+    },
+    "confidence": 0.6563556218278943,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:58:21",
+    "source": "hyperliquid",
+    "message": {
+      "price": 16.04,
+      "volume": 116072032.0,
+      "change_24h": 4.52808,
+      "rsi": 40.7600074134656,
+      "coin": "hyperliquid",
+      "confidence": 0.7750043901781389
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 9
+    },
+    "confidence": 0.7750043901781389,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:58:23",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.921732,
+      "volume": 407849849.0,
+      "change_24h": 10.22434,
+      "rsi": 53.772453117095665,
+      "coin": "fartcoin",
+      "confidence": 0.7166258807134761
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 2,
+      "neutral": 6
+    },
+    "confidence": 0.7166258807134761,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:59:36",
+    "source": "render-token",
+    "message": {
+      "price": 4.01,
+      "volume": 320932734.0,
+      "change_24h": 4.02899,
+      "rsi": 36.09582667534185,
+      "coin": "render-token",
+      "confidence": 0.585398461423157
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.585398461423157,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:59:46",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.68,
+      "volume": 257766002.0,
+      "change_24h": -7.99488,
+      "rsi": 66.35426653046459,
+      "coin": "bitcoin-cash",
+      "confidence": 0.5854994132433002
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5854994132433002,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:59:51",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.884246,
+      "volume": 172985799.0,
+      "change_24h": 1.79171,
+      "rsi": 47.177553769369084,
+      "coin": "ondo-finance",
+      "confidence": 0.6559247171841542
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6559247171841542,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 21:59:51",
+    "source": "bonk",
+    "message": {
+      "price": 1.31e-05,
+      "volume": 125609544.0,
+      "change_24h": 1.25198,
+      "rsi": 51.74980535363282,
+      "coin": "bonk",
+      "confidence": 0.6563399980579826
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 1,
+      "neutral": 7
+    },
+    "confidence": 0.6563399980579826,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:01:03",
+    "source": "vechain",
+    "message": {
+      "price": 0.0235545,
+      "volume": 105755835.0,
+      "change_24h": 3.72335,
+      "rsi": 47.0906634735082,
+      "coin": "vechain"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:01:03",
+    "source": "hyperliquid",
+    "message": {
+      "price": 16.12,
+      "volume": 41773797.0,
+      "change_24h": 5.07655,
+      "rsi": 62.85800586210798,
+      "coin": "hyperliquid"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:01:09",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.919834,
+      "volume": 406857083.0,
+      "change_24h": 9.99741,
+      "rsi": 61.16900189283725,
+      "coin": "fartcoin"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:01:13",
+    "source": "render-token",
+    "message": {
+      "price": 4.01,
+      "volume": 320845108.0,
+      "change_24h": 4.04083,
+      "rsi": 38.418864004676564,
+      "coin": "render-token",
+      "confidence": 0.5853519013893114
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.5853519013893114,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:02:29",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.68,
+      "volume": 257007109.0,
+      "change_24h": -7.9346,
+      "rsi": 60.58623706230867,
+      "coin": "bitcoin-cash",
+      "confidence": 0.585626140515356
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.585626140515356,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:02:35",
+    "source": "bonk",
+    "message": {
+      "price": 1.308e-05,
+      "volume": 119740863.0,
+      "change_24h": 1.2714,
+      "rsi": 55.52686750582994,
+      "coin": "bonk",
+      "confidence": 0.6563303390930258
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 1,
+      "neutral": 7
+    },
+    "confidence": 0.6563303390930258,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:03:40",
+    "source": "ondo-finance",
+    "message": {
+      "price": 0.883902,
+      "volume": 206172529.0,
+      "change_24h": 2.17378,
+      "rsi": 57.899949511950986,
+      "coin": "ondo-finance",
+      "confidence": 0.6553684244337727
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8
+    },
+    "confidence": 0.6553684244337727,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:03:46",
+    "source": "vechain",
+    "message": {
+      "price": 0.02355474,
+      "volume": 104248872.0,
+      "change_24h": 3.72274,
+      "rsi": 40.00903381356664,
+      "coin": "vechain"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:03:48",
+    "source": "hyperliquid",
+    "message": {
+      "price": 16.12,
+      "volume": 41802304.0,
+      "change_24h": 5.07317,
+      "rsi": 30.941942021866858,
+      "coin": "hyperliquid",
+      "confidence": 0.7757564714050184
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 9
+    },
+    "confidence": 0.7757564714050184,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:03:52",
+    "source": "fartcoin",
+    "message": {
+      "price": 0.917594,
+      "volume": 406201340.0,
+      "change_24h": 9.46507,
+      "rsi": 47.60145692602811,
+      "coin": "fartcoin"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:03:55",
+    "source": "render-token",
+    "message": {
+      "price": 4.0,
+      "volume": 323256269.0,
+      "change_24h": 3.96251,
+      "rsi": 37.354765457693816,
+      "coin": "render-token"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:04:09",
+    "source": "bitcoin-cash",
+    "message": {
+      "price": 322.67,
+      "volume": 256361918.0,
+      "change_24h": -7.93844,
+      "rsi": 60.674118951645326,
+      "coin": "bitcoin-cash"
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {},
+    "confidence": 0,
+    "executed": false
+  },
+  {
+    "timestamp": "2025-04-14 22:04:17",
+    "source": "bonk",
+    "message": {
+      "price": 1.307e-05,
+      "volume": 119721471.0,
+      "change_24h": 1.22715,
+      "rsi": 59.05462285023833,
+      "coin": "bonk",
+      "confidence": 0.6562634213644453
+    },
+    "insight": "none",
+    "signal": null,
+    "sentiment": {
+      "positive": 2,
+      "negative": 1,
+      "neutral": 7
+    },
+    "confidence": 0.6562634213644453,
     "executed": false
   }
 ]
