@@ -206,5 +206,61 @@
       "buy_rsi_threshold": 26.69,
       "sell_rsi_threshold": 73.7
     }
+  },
+  {
+    "timestamp": "2025-04-14 22:05:07",
+    "accuracy": 59.67741935483871,
+    "adjustments": {
+      "buy_rsi_threshold": 27.82,
+      "sell_rsi_threshold": 72.2
+    }
+  },
+  {
+    "timestamp": "2025-04-14 22:10:17",
+    "accuracy": 66.12903225806451,
+    "adjustments": {
+      "buy_rsi_threshold": 30.63,
+      "sell_rsi_threshold": 69.15
+    }
+  },
+  {
+    "timestamp": "2025-04-14 22:15:19",
+    "accuracy": 59.67741935483871,
+    "adjustments": {
+      "buy_rsi_threshold": 27.86,
+      "sell_rsi_threshold": 72.24
+    }
+  },
+  {
+    "timestamp": "2025-04-14 22:20:21",
+    "accuracy": 66.12903225806451,
+    "adjustments": {
+      "buy_rsi_threshold": 30.62,
+      "sell_rsi_threshold": 69.09
+    }
+  },
+  {
+    "timestamp": "2025-04-14 22:20:21",
+    "accuracy": 66.12903225806451,
+    "adjustments": {
+      "buy_rsi_threshold": 29.62,
+      "sell_rsi_threshold": 70.09
+    }
+  },
+  {
+    "timestamp": "2025-04-14 22:25:23",
+    "accuracy": 64.51612903225806,
+    "adjustments": {
+      "buy_rsi_threshold": 30.42,
+      "sell_rsi_threshold": 71.18
+    }
+  },
+  {
+    "timestamp": "2025-04-14 22:30:26",
+    "accuracy": 62.903225806451616,
+    "adjustments": {
+      "buy_rsi_threshold": 28.33,
+      "sell_rsi_threshold": 73.84
+    }
   }
 ]
