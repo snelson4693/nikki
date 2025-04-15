@@ -157,11 +157,14 @@ def get_market_data(symbol, asset_type="crypto"):
             "rsi": data["rsi"],
             "change_24h": data["change_24h"],
             "timestamp": time.time(),
-            "source": f"market_pull_{asset_type}"
+            "source": "market_pull"
         }
         save_market_snapshot(enriched_data)
 
         return data
+    except Exception as e:
+        log_message(f"❌ Failed to get {asset_type} market data for {symbol}: {e}")
+        return None
 
     except Exception as e:
         log_message(f"❌ Failed to get {asset_type} market data for {symbol}: {e}")

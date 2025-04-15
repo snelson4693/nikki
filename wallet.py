@@ -28,10 +28,20 @@ def save_wallet(wallet):
     with open(WALLET_FILE, "w") as f:
         json.dump(wallet, f, indent=4)
 
+def detect_asset_type(symbol):
+    # This list can be dynamically updated later by Nikki
+    known_cryptos = {"bitcoin", "ethereum", "litecoin", "bnb", "solana", "dogecoin", "cardano", "xrp", "shiba", "polkadot"}
+    normalized = symbol.lower()
+
+    if normalized in known_cryptos:
+        return "crypto"
+    return "stock"
+
 def log_influence(coin, action, pre_price):
     try:
         time.sleep(10)  # 🕒 Wait 10 seconds to simulate short-term market reaction
-        new_data = get_market_data(coin)
+        asset_type = detect_asset_type(coin)
+        new_data = get_market_data(coin, asset_type=asset_type)
         if not new_data:
             return
 

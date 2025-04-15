@@ -11,8 +11,13 @@ from risk_manager import is_trade_allowed
 from utils.helpers import log_message, adaptive_sleep
 from news_feed import get_headlines
 
-
 JOURNAL_LOG = "logs/reflective_journal.json"
+
+def detect_asset_type(symbol):
+    """Infer asset type from symbol name."""
+    if symbol.isalpha() and symbol.upper() == symbol and len(symbol) <= 5:
+        return "stock"
+    return "crypto"
 
 def schedule_tasks(model, scaler, coins):
     log_message("📅 Task scheduler thread started.")
@@ -23,7 +28,8 @@ def schedule_tasks(model, scaler, coins):
             high_priority = False
 
             for coin in coins:
-                data = get_market_data(coin)
+                asset_type = detect_asset_type(coin)
+                data = get_market_data(coin, asset_type=asset_type)
                 if not data or not is_trade_allowed(data):
                     continue
 
@@ -55,8 +61,8 @@ def schedule_tasks(model, scaler, coins):
             log_message(f"❌ Error during scheduling logic: {e}")
 
         time.sleep(120)  # Evaluate every 2 minutes
-def log_reflection(source, message, signal=None, sentiment=None, confidence=0.0, executed=False, insight=None):
 
+def log_reflection(source, message, signal=None, sentiment=None, confidence=0.0, executed=False, insight=None):
     os.makedirs("logs", exist_ok=True)
 
     entry = {
@@ -69,7 +75,6 @@ def log_reflection(source, message, signal=None, sentiment=None, confidence=0.0,
         "confidence": confidence,
         "executed": executed
     }
-
 
     if os.path.exists(JOURNAL_LOG):
         try:

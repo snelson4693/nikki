@@ -17,7 +17,8 @@ def display_dashboard():
 
             console.print("[bold cyan]🔄 Refreshing dashboard...[/bold cyan]")
 
-            data = get_market_data("bitcoin")
+            # ✅ Explicitly define asset type (bitcoin is crypto)
+            data = get_market_data("bitcoin", asset_type="crypto")
             if not data:
                 console.print("[bold red]❌ Could not fetch market data.[/bold red]")
                 time.sleep(10)
@@ -65,5 +66,6 @@ def display_dashboard():
     except Exception:
         console.print("[bold red]‼️ Dashboard Error:[/bold red]")
         console.print(traceback.format_exc())
+
 if __name__ == "__main__":
     display_dashboard()

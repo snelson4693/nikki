@@ -8,10 +8,15 @@ DEFAULT_MIN_PROFIT_THRESHOLD = 0.25
 DEFAULT_ADAPTIVE_WINDOW = 7
 DEFAULT_CONFIDENCE_MARGIN = 1.1
 
+def detect_asset_type(symbol):
+    return "crypto" if symbol.lower() in ["bitcoin", "ethereum", "solana", "bnb"] else "stock"
 
 def evaluate_opportunity(asset_from, asset_to, threshold, confidence_margin):
-    from_data = get_market_data(asset_from)
-    to_data = get_market_data(asset_to)
+    from_type = detect_asset_type(asset_from)
+    to_type = detect_asset_type(asset_to)
+
+    from_data = get_market_data(asset_from, asset_type=from_type)
+    to_data = get_market_data(asset_to, asset_type=to_type)
 
     if not from_data or not to_data:
         return None
@@ -39,7 +44,6 @@ def evaluate_opportunity(asset_from, asset_to, threshold, confidence_margin):
 
     return None
 
-
 def auto_adjust_threshold(history):
     if len(history) < DEFAULT_ADAPTIVE_WINDOW:
         return DEFAULT_MIN_PROFIT_THRESHOLD
@@ -49,7 +53,6 @@ def auto_adjust_threshold(history):
     adjusted = max(0.05, min(2.0, avg_gain * 0.85))
     return round(adjusted, 4)
 
-
 def auto_adjust_confidence_margin(history):
     if not history:
         return DEFAULT_CONFIDENCE_MARGIN
@@ -57,7 +60,6 @@ def auto_adjust_confidence_margin(history):
     volatility = max(history) - min(history)
     margin = 1.0 + min(0.5, volatility / 100)
     return round(margin, 4)
-
 
 def adjust_asset_scope(history):
     if not history:
@@ -67,7 +69,6 @@ def adjust_asset_scope(history):
     if average_gain > 1:
         return ["bitcoin", "ethereum", "solana", "bnb"], ["AAPL", "TSLA", "NVDA", "MSFT"]
     return ["bitcoin", "ethereum"], ["AAPL", "TSLA"]
-
 
 def smart_asset_rotation():
     config = load_config()
@@ -102,7 +103,10 @@ def smart_asset_rotation():
         balance = candidate["balance"]
         gain = candidate["gain"]
 
-        from_data = get_market_data(from_asset)
+        from_type = detect_asset_type(from_asset)
+        to_type = detect_asset_type(to_asset)
+
+        from_data = get_market_data(from_asset, asset_type=from_type)
         from_price = from_data["price"]
         usd_value = balance * from_price
 
@@ -112,7 +116,7 @@ def smart_asset_rotation():
             "symbol": from_asset
         }, from_data)
 
-        to_data = get_market_data(to_asset)
+        to_data = get_market_data(to_asset, asset_type=to_type)
         to_price = to_data["price"]
         to_amount = usd_value / to_price
 
@@ -129,7 +133,6 @@ def smart_asset_rotation():
 
         break
 
-
 def cross_asset_coordinator_loop():
     while True:
         try:
@@ -137,3 +140,4 @@ def cross_asset_coordinator_loop():
         except Exception as e:
             log_message(f"❌ Cross-asset coordinator error: {e}")
         time.sleep(600)
+

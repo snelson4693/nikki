@@ -31,6 +31,11 @@ def log_narrative(entry):
     with open(NARRATIVE_LOG, "w") as f:
         json.dump(logs[-200:], f, indent=2)
 
+def detect_asset_type(symbol):
+    if symbol.isalpha() and symbol.upper() == symbol and len(symbol) <= 5:
+        return "stock"
+    return "crypto"
+
 def schedule_tasks(model, scaler, coins):
     log_message("📅 Narrative scheduler thread started.")
     while True:
@@ -48,7 +53,8 @@ def schedule_tasks(model, scaler, coins):
             }
 
             for coin in coins:
-                data = get_market_data(coin)
+                asset_type = detect_asset_type(coin)
+                data = get_market_data(coin, asset_type=asset_type)
                 if not data:
                     narrative["events"].append(f"No data for {coin}.")
                     continue
